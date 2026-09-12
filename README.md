@@ -9,3 +9,7 @@ From traditional or personal education, game programming, high-speed scripting, 
 More detail and frequent development streams are available on the project YouTube channel: https://www.youtube.com/@TheFlaxProject
 
 _*Flax code, though assembly-like in nature, is not what would be classed as true assembly in the strictest sense of the term, as it isn’t tied to a specific hardware type or CPU vendor instruction set.  Flax code is platform-independent, which is not the normal case._
+
+## Screen Shots
+
+<img width="1280" height="873" alt="Screenshot 2026-09-13 at 4 07 44 am" src="https://github.com/user-attachments/assets/d60ad7ce-ae7f-48a3-b56c-e2d228e2b2e6" />
