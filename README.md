@@ -6,4 +6,4 @@ Even though Flax is the latest incarnation of what was and has been developed in
 
 From traditional or personal education, game programming, high-speed scripting, and even cluster-based applications.  The list of possibilities is endless.
 
-*Flax code, though assembly-like in nature, is not what would be classed as true assembly in the strictest sense of the term, as it isn’t tied to a specific hardware type or CPU vendor instruction set.  Flax code is platform-independent, which is not the normal case.
+_*Flax code, though assembly-like in nature, is not what would be classed as true assembly in the strictest sense of the term, as it isn’t tied to a specific hardware type or CPU vendor instruction set.  Flax code is platform-independent, which is not the normal case._
