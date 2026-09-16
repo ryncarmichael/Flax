@@ -37,7 +37,7 @@ I accept that such performance benchmarks are usually entirely useless as they a
 
 - **How much does Flax cost?**
 
-  Flax is licensed as freeware, so for personal, non-business use, it’s free.  Business use will be assessed on a case-by-case basis, but at most a small per-seat license fee may be required.  You’re welcome to email us for further information.
+  Flax is licensed as freeware, so for personal, non-business use, it’s free.  Business use will be assessed on a case-by-case basis, but at most a small yearly per-seat license fee may be required.  You’re welcome to email us for further information.
 
 
 ## Screen Shots
