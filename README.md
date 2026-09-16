@@ -18,7 +18,7 @@ In this case, however, they have a use, if only for myself.  As I've run exactly
 
 The prior versions ran a **3**, **13**, **80** and **145** _(MIPS)_ and the latest with Odin **600+**.
 
-This doesn't mean that any of the prior versions were bad; they were perfect for their use case. I doubt you could even tell the difference between the version running at 3 and the latest version.
+This doesn't mean that any of the prior versions were bad; they were perfect for their use case. I doubt you could even tell the difference between the version running at **3** and the latest version.
 
 All this benchmark really shows is there is a lot more head room available in this version than the previous.
 
