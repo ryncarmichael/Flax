@@ -1,10 +1,80 @@
-# Freeware
+# Flax Non-Commercial License
+## Version 1.0 — 2026
 
-### Copyright (c) 2026 The Flax Project
+Copyright (c) 2026 The Flax Project
 
-**Flax is licensed as freeware, which allows for unlimited personal educational use but excludes business use unless authorised in writing.**
+## 1. Grant of License
 
-THIS SOFTWARE IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.  IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER(S) BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.
+Subject to these terms, the copyright holder grants you a
+non-exclusive, worldwide, royalty-free license to download, install,
+and use Flax for personal, non-commercial, or educational purposes.
 
+This license is granted to an individual user. Educational use includes
+use by students, educators, and educational institutions for teaching,
+learning, coursework, or academic research, provided that the use is
+not primarily intended to generate revenue.
 
-_*A per-seat license fee for business use may apply.  This would be evaluated on a case-by-case basis and may even be waived should we feel it warranted.  Whether a subscription model or a one-off lifetime payment is used will also be considered, as would the requirement for priority support outside of the normal update frequency._
+## 2. Commercial Use
+
+Commercial use is not permitted under this license.
+
+Commercial use includes:
+
+- use by a business, company, or other commercial organisation;
+- use by employees or contractors in connection with their work;
+- use in providing paid services or consulting;
+- use in a product or service offered for payment;
+- use to support revenue-generating activities; and
+- use in an internal business workflow.
+
+Commercial use requires a separate written commercial license from
+The Flax Project before such use begins. Commercial licenses may be
+priced per authorised user or seat. Pricing, subscription terms,
+lifetime terms, support, and update rights will be specified in the
+applicable commercial license agreement.
+
+## 3. Restrictions
+
+Except as expressly permitted by this license or a separate written
+agreement, you may not:
+
+- use Flax for commercial purposes;
+- sell, rent, lease, sublicense, or redistribute Flax;
+- provide Flax as a hosted or managed service;
+- remove copyright, license, or attribution notices; or
+- use Flax to create or distribute a competing product.
+
+You may make reasonable backup copies for your own permitted use.
+You may not share those copies with other users.
+
+## 4. Ownership
+
+Flax is licensed, not sold. The Flax Project and its licensors retain
+all rights, title, and interest in Flax except for the rights expressly
+granted by this license.
+
+## 5. Termination
+
+This license terminates automatically if you breach its terms. Upon
+termination, you must stop using Flax and delete all copies in your
+possession or control.
+
+## 6. Disclaimer of Warranty
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, FLAX IS PROVIDED
+“AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, WHETHER
+EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NON-INFRINGEMENT.
+
+## 7. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE FLAX PROJECT
+AND ITS CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR punitive DAMAGES, OR FOR ANY
+LOSS OF DATA, PROFITS, REVENUE, OR BUSINESS INTERRUPTION, ARISING OUT
+OF OR RELATING TO FLAX OR THIS LICENSE.
+
+## 8. Contact
+
+For commercial licensing inquiries, contact: theflaxproject@icloud.com
