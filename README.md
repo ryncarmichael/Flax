@@ -1,4 +1,4 @@
-## Welcome to The Flax Project
+# Welcome to The Flax Project
 
 Flax is a high-speed (Assembly Language Like*), compiler, and runtime engine originally designed for use in education, for teaching low-level programming concepts without the danger of bricking the machine with native assembly.
 
