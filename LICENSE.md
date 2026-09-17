@@ -3,7 +3,7 @@
 
 Copyright (c) 2026 The Flax Project
 
-## 1. Grant of License
+## 1 Grant of License
 
 Subject to these terms, the copyright holder grants you a
 non-exclusive, worldwide, royalty-free license to download, install,
@@ -33,7 +33,13 @@ priced per authorised user or seat. Pricing, subscription terms,
 lifetime terms, support, and update rights will be specified in the
 applicable commercial license agreement.
 
-## 3. Restrictions
+## 3. Evaluation Use
+
+A commercial organisation may evaluate Flax for up to 30 days solely
+to determine whether to purchase a commercial license. Evaluation use
+may not be used to perform production work or provide paid services.
+
+## 4. Restrictions
 
 Except as expressly permitted by this license or a separate written
 agreement, you may not:
@@ -44,22 +50,32 @@ agreement, you may not:
 - remove copyright, license, or attribution notices; or
 - use Flax to create or distribute a competing product.
 
-You may make reasonable backup copies for your own permitted use.
-You may not share those copies with other users.
+## 5. Distribution
 
-## 4. Ownership
+You may download the official Flax installer from an authorised
+distribution channel and make an unchanged copy solely for your own
+personal backup.
+
+You may not mirror, repackage, modify, sell, rent, sublicense, or
+redistribute the installer or any component of Flax without prior
+written permission.
+
+You may share links to the official Flax download page, but you may
+not host or redistribute copies of the Flax installer.
+
+## 6. Ownership
 
 Flax is licensed, not sold. The Flax Project and its licensors retain
 all rights, title, and interest in Flax except for the rights expressly
 granted by this license.
 
-## 5. Termination
+## 7. Termination
 
 This license terminates automatically if you breach its terms. Upon
 termination, you must stop using Flax and delete all copies in your
 possession or control.
 
-## 6. Disclaimer of Warranty
+## 8. Disclaimer of Warranty
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, FLAX IS PROVIDED
 “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, WHETHER
@@ -67,7 +83,7 @@ EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
 NON-INFRINGEMENT.
 
-## 7. Limitation of Liability
+## 9. Limitation of Liability
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE FLAX PROJECT
 AND ITS CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
@@ -75,6 +91,6 @@ SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR punitive DAMAGES, OR FOR ANY
 LOSS OF DATA, PROFITS, REVENUE, OR BUSINESS INTERRUPTION, ARISING OUT
 OF OR RELATING TO FLAX OR THIS LICENSE.
 
-## 8. Contact
+## 10. Contact
 
 For commercial licensing inquiries, contact: theflaxproject@icloud.com
