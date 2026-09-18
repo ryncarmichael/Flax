@@ -3,7 +3,7 @@
 
 Copyright (c) 2026 The Flax Project
 
-## 1 Grant of License
+## 1. Grant of License
 
 Subject to these terms, the copyright holder grants you a
 non-exclusive, worldwide, royalty-free license to download, install,
