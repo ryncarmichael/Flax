@@ -22,7 +22,7 @@ This doesn't mean that any of the prior versions were bad; they were perfect for
 
 All this benchmark really shows is there is a lot more head room available in this version than the previous.
 
-<img width="2664" height="1708" alt="performance" src="https://github.com/user-attachments/assets/7fbe3852-cae2-4360-b501-c1f73f62a55e" />
+<img width="1280" height="821" alt="653733750-7fbe3852-cae2-4360-b501-c1f73f62a55e" src="https://github.com/user-attachments/assets/f495bb84-2b08-4525-84a3-1bbd3d428dbc" />
 
 ## Frequently Asked Questions
 
@@ -49,5 +49,6 @@ All this benchmark really shows is there is a lot more head room available in th
 
 ## Screen Shots
 
-<img width="1280" height="873" alt="Screenshot 2026-09-13 at 4 07 44 am" src="https://github.com/user-attachments/assets/d60ad7ce-ae7f-48a3-b56c-e2d228e2b2e6" />
+<img width="1280" height="873" alt="650769648-d60ad7ce-ae7f-48a3-b56c-e2d228e2b2e6" src="https://github.com/user-attachments/assets/bff2d43e-d2ae-47ef-adfe-adca26526fda" />
+
 
