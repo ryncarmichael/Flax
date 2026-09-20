@@ -8,7 +8,7 @@ From traditional or personal education, entertainment, high-speed scripting, and
 
 More detail and frequent development streams are available on the project's YouTube channel: https://www.youtube.com/@TheFlaxProject
 
-_(1) Although Flax code is assembly-like in nature, it is not assembly language in the strict sense. It is not tied to a specific hardware platform or CPU vendor’s instruction set. Flax code is platform-independent, as explained later in this manual._
+_(1) Although Flax code is assembly-like in nature, it is not assembly language in the strict sense. It is not tied to a specific hardware platform or CPU vendor’s instruction set. Flax code is platform-independent, as explained in the System Manual._
 
 _(2) Flax is not, and is not intended to become, a game engine. It is primarily a language designed for educational purposes. A GUI-based version may be introduced in the future, but it will not include the complexity or feature set of a conventional game engine._
 
