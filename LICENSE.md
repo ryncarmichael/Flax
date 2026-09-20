@@ -1,4 +1,4 @@
-# Flax Non-Commercial License
+# Flax Language and Compiler Non-Commercial License
 ## Version 1.0 — 2026
 
 Copyright (c) 2026 The Flax Project
