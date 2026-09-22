@@ -32,7 +32,7 @@ All this benchmark really shows is there is a lot more head room available in th
 
 - **What does the name Flax mean, is it an acronym and why was it chosen?**
 
-   No, Flax is not an acronym.  It’s just a name we chose which sounded good but at the same time is a nod to the flax plant, which in prior times was used for making cloth and sails for sailing ships.  The flax plant has so many positive uses that if used to its full potential could be very beneficial.  If you really needed an acronym though, **‘Function Learning Assembly Execution’** would fit.
+   No, Flax is not an acronym.  It’s just a name we chose which sounded good but at the same time is a nod to the flax plant, which in prior times was used for making cloth and sails for sailing ships.  The flax plant has so many positive uses that if used to its full potential could be very beneficial.  If you really needed an acronym though, **‘Functional Learning Assembly Execution’** would fit.
  
 - **What operating systems does Flax support?**
 
