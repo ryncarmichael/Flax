@@ -1,0 +1,38 @@
+;Flax Solution to Project Euler Problem 1
+_start:
+	lda true
+	sys flag, debugEnabled
+	
+	lda 999
+	stc
+
+loop:
+	lda c
+	mod 3
+	cmp 0
+	jsrz addnumber
+	jz skip
+	
+	lda c
+	mod 5
+	cmp 0
+	jsrz addnumber
+		
+	skip:
+
+	lp loop
+
+	lda r0
+	out number
+
+	brk
+
+addnumber:
+	pusha
+	
+	lda r0
+	add c
+	sta r0
+	
+	popa
+	rts

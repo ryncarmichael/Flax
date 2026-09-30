@@ -1,0 +1,40 @@
+;Flax Color Styles Example
+_start:
+	lda true
+	sys flag, debugEnabled
+
+	out terminal, styleBold
+;-------------------	
+	out terminal, dimRed
+	out msg
+	
+	out terminal, red
+	out msg
+	
+	out terminal, brightRed
+	out msg
+
+;-------------------
+	out terminal, dimYellow
+	out msg
+	
+	out terminal, yellow
+	out msg
+	
+	out terminal, brightYellow
+	out msg
+
+;-------------------	
+	out terminal, dimGreen
+	out msg
+
+	out terminal, green
+	out msg
+
+	out terminal, brightGreen
+	out msg
+	
+	lda 10
+	out
+	
+db msg, "Hello "

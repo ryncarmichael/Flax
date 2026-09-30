@@ -1,0 +1,49 @@
+;Flax Timer Testing Example
+_start:
+	;setup our environment
+	jsr setup
+
+	gt timerTimeNow
+	sta timer
+
+mainLoop:
+	lda timer
+	gt timerTimeSince
+	cmp 1000 ;one seconds
+	jg notExpired
+	jsr timerExpired
+
+notExpired:
+
+	in
+	sta r0
+	cmp 27
+	jsrz exit
+
+	jp mainLoop
+	
+catch:
+	brk
+
+exit:
+	brk
+	rts
+	
+timerExpired:
+	pusha
+	out msg
+	gt timerTimeNow
+	sta timer
+	popa
+	rts
+
+setup:
+	lda true
+	sys flag, debugEnabled
+	sys flag, autoPauseEnabled
+	rts
+	
+db msg, "Timer Expired\n"
+dd timer, 0	
+
+	

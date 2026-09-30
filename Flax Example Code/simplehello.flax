@@ -1,0 +1,8 @@
+;Simple Hello Flax World! - Using STDOUT
+;This is the quickest way to print a message
+_start:
+	out msg
+	brk
+ 
+db msg, "Hello, Flax World!\n"
+

@@ -1,0 +1,75 @@
+;Flax quick and dirty Prime number generator
+_start:
+	lda true
+	sys flag, debugEnabled
+	
+	lda 50000
+	sys value, sysPerformance
+	
+	out startMsg
+	
+mainLoop:
+	lda maxNumber
+	cmp 13
+	jl skipexcludes
+
+	lda 5
+	stc
+checkExcludes:	
+	lda excludes, c
+	sta b
+	lda maxNumber
+	cmp b
+	jz prime
+	lp checkExcludes
+
+skipexcludes:
+	
+	lda 5
+	stc
+excludesLoop:
+	lda excludes, c
+	sta b
+	lda maxNumber
+	mod b
+	jz notPrime
+	lp excludesLoop
+
+	lda maxNumber
+	dec
+	stc
+calcLoop:
+	lda c
+	cmp 1
+	jz prime
+
+	lda maxNumber
+	mod c
+	jz notPrime
+
+	lp calcLoop
+
+prime:
+	lda maxNumber
+	out number
+
+notPrime:
+	lda maxNumber
+	inc
+	sta maxNumber
+
+	cmp maxValue
+	jlz exit
+
+	jp mainLoop
+
+exit:
+	lda 10
+	out
+	brk
+
+dw maxValue, 1400
+dw maxNumber, 2
+db excludes 2,3,5,7,11,13
+db startMsg, "Prime Number Test.\n\n"
+

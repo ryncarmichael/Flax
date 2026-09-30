@@ -1,0 +1,22 @@
+;Hello, Flax World! - Pointer Example
+_start:
+
+	lda true
+	sys flag, debugEnabled
+
+	len myMsg
+	sta c
+
+mainLoop:
+	lda myMsg, b
+	jz end
+	out
+	lda b
+	inc
+	sta b
+	lp mainLoop
+
+end:
+	brk
+
+db myMsg, "Hello, Flax World!\n"

@@ -1,0 +1,35 @@
+;Flax File IO - Reading Example
+_start:
+	lda true
+	sys flag, debugEnabled
+
+	;lda #fileVar
+	;in fileIO, openFile
+
+	;Uncomment these line to print the file with needing the loop.
+	;out fileVar 
+	;brk
+
+	lda 2
+	stc
+readLoop:
+
+loop:
+	lda fileVar
+	jl endLoop ;Looking for eof -1
+	out
+	jp loop
+	
+endLoop:
+	
+	lda #fileVar
+	in fileIO, resetPointer
+	
+	lp readLoop
+
+	lda #fileVar
+	in fileIO, closeFile
+	
+	brk
+
+file fileVar, "files/test.txt" ;Hello

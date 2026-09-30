@@ -1,0 +1,69 @@
+;Flax IRQ, Timer and Main Code Stream Test
+_start:
+
+	lda true
+	sys flag, debugEnabled
+	sys flag, autoPauseEnabled
+	
+	lda 5
+	sys value, irqPerformance
+	
+	lda 300
+	sys value, autoPauseTime
+
+	gt timerTimeNow
+	sta timer
+	
+	out startMsg
+	
+mainLoop:
+	lda 65
+	out
+
+	lda timer
+	gt timerTimeSince
+	cmp 500 ;one seconds
+	jg notExpired
+	jsr timerExpired
+
+notExpired:
+	
+	in
+	sta keyCode
+
+	cmp 27
+	jsrz exit
+	
+	jp mainLoop
+
+;Catch line	
+	brk
+	
+_irq:
+	pusha
+
+	out irqMsg
+	
+	popa
+	rti
+
+
+timerExpired:
+	gt timerTimeNow
+	sta timer
+	out timerMsg
+	rts
+	
+exit:
+	brk
+	rts
+	
+dw timer, 0
+db irqMsg, " (B) "
+db timerMsg, " (C) "
+db keyCode, 0
+db startMsg, " IRQ TESTING "
+
+
+
+

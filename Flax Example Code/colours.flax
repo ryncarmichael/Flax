@@ -1,0 +1,106 @@
+;Flax Colors and Cursor Example
+_start:
+	lda true
+	sys flag, debugEnabled
+	sys flag, autoPauseEnabled
+	
+	lda 100
+	sys value, sysPerformance
+	
+	lda 35
+	sys value, autoPauseTime
+	
+mainLoop:
+	
+	;Colours
+	lda 23
+	rnd
+	add 20
+	out terminal
+
+	;Background
+	lda 15
+	rnd
+	jsrz bgColor
+
+	;Style
+	lda 2
+	rnd
+	jsrz style
+
+	;Column and row
+	lda 23
+	rnd
+	add 1
+	out terminal, cursorRow
+
+	lda 79
+	rnd
+	add 1
+	out terminal, cursorColumn
+
+	;Character
+	lda 94
+	rnd
+	add 32
+	out
+
+	;Reset
+	out terminal, styleReset
+
+	;Handle KeyCodes
+	in
+	sta keyCode
+	
+	cmp 32
+	jsrz clear
+	
+	lda keyCode
+	cmp 65
+	jsrz hlt
+	
+
+	lda keyCode
+	cmp 27
+	jsrz exit
+
+	jp mainLoop
+	
+	brk
+
+hlt:
+	jsr clear
+	hlt
+	rts
+
+
+bgColor:
+	lda 15
+	rnd
+	add 44
+	out terminal
+	rts
+
+style:
+	lda 3
+	rnd
+	add 12
+	out terminal
+	rts
+
+clear:
+	out terminal, clearScreen
+	out terminal, clearHistory
+	out terminal, cursorScreenHome
+	rts
+	
+exit:
+	jsr clear
+	brk
+	rts
+
+db keyCode, 0
+
+
+
+

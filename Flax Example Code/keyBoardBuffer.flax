@@ -1,0 +1,24 @@
+;Flax read entire Key Board Buffer Example
+;The runtime snap shot shows the results
+@runtimeSnapShotFull
+
+_start:
+	lda true
+	sys flag, autoPauseEnabled
+
+mainLoop:
+	lda #buf
+	in keyBoardBuffer
+
+	lda buf
+	jsrnz exit
+
+	jp mainLoop
+
+	brk
+
+exit:
+	brk
+	rts
+
+db buf, &64

@@ -1,0 +1,27 @@
+;Flax Fionacci Sequence Example
+_start:
+	lda true
+	sys flag, debugEnabled
+	
+	out startMsg
+
+	lda 60
+	stc
+
+	lda 1
+	xch b
+
+loop:
+	out number
+	add b
+	xch b
+	lp loop
+
+	lda 10
+	out
+
+	brk
+
+;Variables
+db startMsg, "The Fibonacci sequence\n\n"
+

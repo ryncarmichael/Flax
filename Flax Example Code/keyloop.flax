@@ -1,0 +1,56 @@
+;Flax Example
+;This is an interactive mode example it can poll from the
+;keyboard with no blocking from the terminal and os.stdin
+_start:
+	jsr setup ;Call the setup subroutine	
+
+;This is program main loop
+mainLoop:
+	in
+	jsrnz keyTest ;A key must have been pressed
+	jsrnz print
+
+	jp mainLoop
+
+;This is a catch all to prevent accidental subroutine over runs
+;It'll end the program but we won't get a hard crash
+end:	
+	brk
+
+;All sub routines should be placed below our catch all
+;Print out the key code
+print:
+	out
+	rts
+
+;Check the key code for other than default actions
+keyTest:
+	push a ;Save the A register
+	cmp 27 ;Check for escape key.
+	jsrz exit
+	pop a ;restore the a register
+	rts
+
+;Exit the program gracefully without an unstructured jump	
+exit:
+	lda 10 ;Add a final line feed
+	out
+	brk
+	rts ;This is redundant but good practise
+	
+;Setup the environment
+setup:
+	lda true
+	sys flag, debugEnabled
+	sys flag, autoPauseEnabled
+	out msg
+	rts
+
+;Varaibles are normally defined at the very end of the program
+db msg, "Flax Assembly\nInteractive Mode Key Test Program - Esc to exit\n\n"
+
+
+	
+	
+	
+	

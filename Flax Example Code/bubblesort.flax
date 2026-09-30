@@ -1,0 +1,107 @@
+;Flax Enhanced Bubblesort Example
+_start:
+	lda true
+	sys flag, debugEnabled
+
+	jsr fillBuffer
+	jsr printData
+	jsr bubbleSort
+	jsr printData
+	
+	lda 10
+	out
+	lda count
+	out number
+	lda 10
+	out
+
+	
+		
+exit:
+	brk
+
+;------------------------
+
+bubbleSort:
+	
+sortStart:
+	lda false
+	sta flip
+
+	lda 0
+	sta lvp
+	inc
+	sta uvp
+
+	lda count
+	stc
+sortLoop:
+	lda sortData, lvp
+	sta r0
+	lda sortData, uvp
+	sta r1
+	cmp r0
+	jlz skipFlip
+	
+	xch r0, r1
+	
+	lda r0
+	sta sortData, lvp
+	lda r1
+	sta sortData, uvp
+		
+	stb flip
+	
+skipFlip:
+	lda uvp
+	sta lvp
+	inc
+	sta uvp
+	lp sortLoop
+
+	lda count
+	dec
+	sta count
+
+	lda flip
+	jnz sortStart
+	rts
+
+;------------------------
+
+printData:
+	len sortData
+	stc
+printLoop:
+	lda 99
+	sub c
+	lda sortData, a
+	out number
+	lp printLoop
+	
+	lda 10
+	out
+	out
+	rts
+
+;------------------------
+
+fillBuffer:
+	len sortData
+	stc
+fillLoop:
+	lda 100
+	rnd
+	sta sortData, c
+	lp fillLoop
+	rts
+
+;------------------------
+
+;Variables
+db count, 98
+db flip, 0
+db lvp, 0
+db uvp, 0
+db sortData, &100
+

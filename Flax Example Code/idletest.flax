@@ -1,0 +1,32 @@
+;Flax This is an idle testing program 
+;To see how slow Flax can be constrained
+_start:
+	lda true
+	sys flag, debugEnabled
+	sys flag, autoPauseEnabled
+
+	lda 5
+	sys value, sysPerformance ;Lowest instructions between yield phases
+	
+	lda 500
+	sys value, autoPauseTime  ;Highest autopause time
+
+loop:
+	in
+	jz print 
+
+	cmp 27 ;Check for escape key
+	jz end
+
+print:
+
+	lda 65 ;A character
+	out
+
+	jp loop
+	
+end:	
+	brk
+
+
+	

@@ -1,0 +1,41 @@
+;Flax testing code for pusha and popa
+;Used for backing up registers
+_start:
+	lda true
+	sys flag, debugEnabled
+
+	jsr fillRegisters
+	jsr storeRegisters
+	jsr clearRegisters
+	jsr restoreRegisters
+	
+	brk
+
+fillRegisters:
+	lda 10
+	sta r0
+	sta r1
+
+	lda 1
+	sta d
+	lda 2
+	sta c
+	lda 3
+	sta b
+	lda 4
+	rts
+
+storeRegisters:
+	pusha
+	rts
+	
+clearRegisters:
+	lda 0
+	sta d
+	sta c
+	sta b
+	rts
+	
+restoreRegisters:
+	popa
+	rts
