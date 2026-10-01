@@ -14,13 +14,9 @@ _start:
 	out number
 	lda 10
 	out
-
-	
 		
 exit:
 	brk
-
-;------------------------
 
 bubbleSort:
 	
@@ -67,11 +63,10 @@ skipFlip:
 	jnz sortStart
 	rts
 
-;------------------------
-
 printData:
 	len sortData
 	stc
+
 printLoop:
 	lda 99
 	sub c
@@ -84,8 +79,6 @@ printLoop:
 	out
 	rts
 
-;------------------------
-
 fillBuffer:
 	len sortData
 	stc
@@ -95,8 +88,6 @@ fillLoop:
 	sta sortData, c
 	lp fillLoop
 	rts
-
-;------------------------
 
 ;Variables
 db count, 98
