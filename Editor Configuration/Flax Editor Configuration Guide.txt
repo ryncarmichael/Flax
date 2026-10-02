@@ -37,8 +37,8 @@ runflax				;Shows all available switches and help
 
 Labels:
 -------------------------------------------------------------
-Labels a single word suffixed with a ":" on a line by themselves, 
-though they can be followed by a comment.
+Labels are a single word suffixed with a ":" on a line by
+themselves, though they can be followed by a comment.
 
 label:
 
