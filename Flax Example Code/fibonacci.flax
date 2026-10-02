@@ -5,7 +5,7 @@ _start:
 	
 	out startMsg
 
-	lda 60
+	lda 92
 	stc
 
 	lda 1

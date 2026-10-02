@@ -5,7 +5,6 @@ _start:
 	
 	lda 999
 	stc
-
 loop:
 	lda c
 	mod 3
