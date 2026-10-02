@@ -1,0 +1,220 @@
+The following file details the required information for creating
+your own language modules and scripts for your preferred editor. If
+you do so, they can be added to the Flax GitHub Repository.
+
+For ease of readability, all the following sections within your editor's
+configuration should be highlighted in separate colours.
+
+
+Comments
+-------------------------------------------------------------
+Comments can be whole line or post instruction; there is no 
+ability block-style comments.  Comments start with ';’.
+
+;This is a line comment.
+
+lda 10 ;This is a inline comment.
+
+
+Execution and Compiling:
+-------------------------------------------------------------
+
+runflax fileName.flax -i.	;Runs file in terminal interactive mode
+
+runflax fileName.flax		;Runs file in normal terminal blocking mode
+
+runflax fileName.flax -c	;Only compiles the file without execution
+
+runflax fileName.flax -e	;Encrypts the flax file saving it with a .eflax entension
+
+runflax				;Shows all available switches and help
+
+
+Labels:
+-------------------------------------------------------------
+Labels a single word suffixed with a ":" on a line by themselves, 
+though they can be followed by a comment.
+
+label:
+
+label: ;Inline comment.
+
+
+Number:
+-------------------------------------------------------------
+Numbers can be bytes, integers, or floating point.  The '&'
+symbol should be included with the number as it's used
+to specify memory block size on a variable definition.
+
+10
+
+-10
+
+10.1
+
+&10
+
+
+Reserved Words:
+-------------------------------------------------------------
+Following is the list of reserved words used in the Flax language.
+
+stb
+nop
+brk
+lda
+sta
+cmp
+stc
+out
+in
+hlt
+gt
+len
+sys
+xch
+rnd
+push
+pop
+csp
+pusha
+popa
+lp
+jp
+jz
+jnz
+jg
+jgz
+jl
+jlz
+jsr
+jsrz
+jsrnz
+rts
+rti
+abs
+mod
+inc
+dec
+add
+sub
+mul
+div
+idiv
+neg
+sqrt
+
+
+Constants:
+-------------------------------------------------------------
+Following is the list of constants defined in the Flax language.
+
+true
+false
+pi
+db
+dw
+dd
+file
+a
+b		
+c
+d
+r0
+r1
+flag
+value
+debugEnabled
+irqEnabled
+autoPauseEnabled
+autoLineFeedEnabled
+autoSpaceEnabled
+sysPerformance
+irqPerformance
+autoPauseTime
+extendedKeyCodesEnabled
+floatingPointPrecision
+hltPollingTime
+divideByZeroErrorEnabled
+number
+keyBoardBuffer
+terminal
+fileIO
+openFile
+closeFile
+appendFile
+createFile
+purgeFile
+resetPointer
+@compileSnapShot
+@compileSnapShotFull
+@runtimeSnapShot
+@runtimeSnapShotFull
+@include
+@enableTestCode
+@suppressWarnings
+timerTimeNow
+timerTimeSince
+clearScreen
+clearLine
+clearHistory
+cursorScreenHome
+cursorLineHome
+cursorUp
+cursorDown
+cursorRight
+cursorLeft
+cursorRow
+cursorColumn
+styleReset
+styleBold
+styleItalic
+styleUnderLined
+styleBlinkOn
+styleBlinkOff
+colorReset
+colorResetFC
+colorResetBC
+colorResetUC
+dimBlack
+dimRed
+dimGreen
+dimYellow
+dimBlue
+dimMagenta
+dimCyan
+dimWhite
+black
+red
+green
+yellow
+blue
+magenta
+cyan
+white
+brightBlack
+brightRed
+brightGreen
+brightYellow
+brightBlue
+brightMagenta
+brightCyan
+brightWhite
+bgBlack
+bgRed
+bgGreen
+bgYellow
+bgBlue
+bgMagenta
+bgCyan
+bgWhite
+bgBrightBlack
+bgBrightRed
+bgBrightGreen
+bgBrightYellow
+bgBrightBlue
+bgBrightMagenta
+bgBrightCyan
+bgBrightWhite
+
+
