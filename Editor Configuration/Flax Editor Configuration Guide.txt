@@ -14,7 +14,7 @@ configuration should be highlighted in separate colours.
 Comments
 -------------------------------------------------------------
 Comments can be whole line or post instruction; there is no 
-ability block-style comments.  Comments start with ';’.
+ability for block-style comments.  Comments start with ';’.
 
 ;This is a line comment.
 
