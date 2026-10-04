@@ -145,6 +145,8 @@ number
 keyBoardBuffer
 terminal
 fileIO
+xml
+utf
 openFile
 closeFile
 appendFile
@@ -163,6 +165,7 @@ timerTimeSince
 clearScreen
 clearLine
 clearHistory
+setRowCount
 cursorScreenHome
 cursorLineHome
 cursorUp
@@ -171,6 +174,8 @@ cursorRight
 cursorLeft
 cursorRow
 cursorColumn
+cursorHide
+cursorShow
 styleReset
 styleBold
 styleItalic
