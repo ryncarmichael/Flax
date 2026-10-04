@@ -4,10 +4,10 @@ _start:
 	sys flag, debugEnabled
 	sys flag, autoPauseEnabled
 	
-	lda 100
+	lda 100 ;Set very slow performance
 	sys value, sysPerformance
 	
-	lda 35
+	lda 35	;Set longer pause time
 	sys value, autoPauseTime
 	
 	out terminal, cursorHide
@@ -54,15 +54,15 @@ mainLoop:
 	in
 	sta keyCode
 	
-	cmp 32
+	cmp 32		;Space
 	jsrz clear
 	
-	lda keyCode
+	lda keyCode	;Upcase A
 	cmp 65
 	jsrz hlt
 	
 
-	lda keyCode
+	lda keyCode	;Escape
 	cmp 27
 	jsrz exit
 
@@ -74,7 +74,6 @@ hlt:
 	jsr clear
 	hlt
 	rts
-
 
 bgColor:
 	lda 15
