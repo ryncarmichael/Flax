@@ -1,17 +1,17 @@
-;Flax Example FileIO File Copy Program.
+;Flax File Copy Program
 _start:
-	lda #inFile 
+	lda #inFile
 	in fileIO, openFile
-	
+
 	lda #outFile
-	out fileIO, createFile
+	out fileIO, appendFile
 	
 copyLoop:
 	lda inFile
-	jl endCopy ;Checking for EOF -1
+	jl endCopy
 	sta outFile
-	jp copyLoop
-
+	jp copyLoop	
+		
 endCopy:
 	lda #inFile
 	in fileIO, closeFile

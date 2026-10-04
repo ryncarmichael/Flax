@@ -6,15 +6,11 @@ _start:
 	jsr fillBuffer
 	jsr printData
 	jsr bubbleSort
+	lda 10
+	out
+	out
 	jsr printData
 	
-	lda 10
-	out
-	lda count
-	out number
-	lda 10
-	out
-		
 exit:
 	brk
 
@@ -45,6 +41,9 @@ sortLoop:
 	sta sortData, lvp
 	lda r1
 	sta sortData, uvp
+	
+	lda lvp
+	sta count
 		
 	stb flip
 	
@@ -54,10 +53,9 @@ skipFlip:
 	inc
 	sta uvp
 	lp sortLoop
-
-	lda count
-	dec
-	sta count
+	
+	lda lvp
+	out number
 
 	lda flip
 	jnz sortStart

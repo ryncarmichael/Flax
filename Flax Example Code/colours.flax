@@ -10,12 +10,14 @@ _start:
 	lda 35
 	sys value, autoPauseTime
 	
+	out terminal, cursorHide
+	
 mainLoop:
 	
 	;Colours
 	lda 23
 	rnd
-	add 20
+	add 23
 	out terminal
 
 	;Background
@@ -77,14 +79,14 @@ hlt:
 bgColor:
 	lda 15
 	rnd
-	add 44
+	add 47
 	out terminal
 	rts
 
 style:
 	lda 3
 	rnd
-	add 12
+	add 15
 	out terminal
 	rts
 
@@ -95,6 +97,7 @@ clear:
 	rts
 	
 exit:
+	out terminal, cursorShow
 	jsr clear
 	brk
 	rts
