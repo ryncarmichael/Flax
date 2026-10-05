@@ -40,7 +40,7 @@ All this benchmark really shows is that there is a lot more headroom available i
  
 - **What operating systems does Flax support?**
 
-   During development, we’re only supporting macOS, with Apple Silicon or x86 processors.  When released, and if and when the required cross-platform compilation tools exist, we’re hoping to release macOS and Linux versions with x86 and Arm processor builds.
+   Flax is only supported on macOS, with Apple Silicon or x86 processors.  If and when the required cross-platform compilation tools exist, we may release Linux versions with x86 and Arm processor builds.
 
    Windows will not be supported until a possible GUI version, due to Flax relying on UNIX-style terminal commands which are not available on Windows.
 
