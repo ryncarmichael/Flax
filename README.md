@@ -1,4 +1,4 @@
-# Welcome to The Flax Language Project
+# Welcome to The Flax Language Repository
 
 ## Latest Release
 https://github.com/ryncarmichael/Flax/releases/tag/Beta1.1
