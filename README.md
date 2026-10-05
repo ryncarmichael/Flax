@@ -56,6 +56,10 @@ All this benchmark really shows is that there is a lot more headroom available i
 
    Flax has a non-commercial use licence, so for personal, non-business use, it’s free.  Business use will be assessed on a case-by-case basis, but at most a small yearly per-seat licence fee may be required.  You’re welcome to email us for further information.
 
+- **In what language was Flax written?**
+
+   Flax was written in Odin, described as a fast, simple, modern, and powerful programming language designed for building efficient software with clarity, control, and minimal complexity.
+
 
 ## Screen Shots
 
