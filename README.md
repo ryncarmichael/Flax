@@ -36,13 +36,13 @@ All this benchmark really shows is that there is a lot more headroom available i
 
 - **What does the name Flax mean, is it an acronym and why was it chosen?**
 
-   No, Flax is not an acronym.  It’s just a name we chose which sounded good but at the same time is a nod to the flax plant, which in prior times was used for making cloth and sails for sailing ships.  The flax plant has so many positive uses that if used to its full potential could be very beneficial.  If you really needed an acronym though,‘Functional Learning Assembly Execution’ would fit.
+   No, Flax is not an acronym.  It’s just a name we chose which sounded good but at the same time honours the flax plant, which in prior times was used for making cloth and sails for sailing ships.  The flax plant has so many positive uses that if used to its full potential could be very beneficial.  If you really needed an acronym though, ‘Functional Learning Assembly Execution’ would fit.
  
 - **What operating systems does Flax support?**
 
-   Flax is only supported on macOS, with Apple Silicon or x86 processors.  If and when the required cross-platform compilation tools exist, we may release Linux versions with x86 and Arm processor builds.
+   Flax is only supported on macOS, with Apple Silicon or x86 processors.  If the required cross-platform tooling were ever released, we _might_ consider a Linux version with x86 and Arm processor builds.
 
-   Windows will not be supported until a possible GUI version, due to Flax relying on UNIX-style terminal commands which are not available on Windows.
+   Windows will not be supported until a possible GUI version, due to Flax relying on UNIX-style terminal commands which are not supported on Windows.
 
 - **Could Flax be used to write a virus?**
 
@@ -55,11 +55,6 @@ All this benchmark really shows is that there is a lot more headroom available i
 - **How much does Flax cost?**
 
    Flax has a non-commercial use licence, so for personal, non-business use, it’s free.  Business use will be assessed on a case-by-case basis, but at most a small yearly per-seat licence fee may be required.  You’re welcome to email us for further information.
-
-- **In what language was Flax written?**
-
-   Flax was written in Odin, described as a fast, simple, modern, and powerful programming language designed for building efficient software with clarity, control, and minimal complexity.
-
 
 ## Screen Shots
 
