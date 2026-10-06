@@ -20,6 +20,9 @@ sortStart:
 	lda false
 	sta flip
 
+	lda count
+	out number
+
 	lda 0
 	sta lvp
 	inc
@@ -42,7 +45,8 @@ sortLoop:
 	lda r1
 	sta sortData, uvp
 	
-	lda lvp
+	lda lvp ;Store the highest flip, and reduce the loop count to that.
+	dec
 	sta count
 		
 	stb flip
@@ -54,9 +58,6 @@ skipFlip:
 	sta uvp
 	lp sortLoop
 	
-	lda lvp
-	out number
-
 	lda flip
 	jnz sortStart
 	rts
@@ -64,7 +65,6 @@ skipFlip:
 printData:
 	len sortData
 	stc
-
 printLoop:
 	lda 99
 	sub c

@@ -1,0 +1,134 @@
+;A Really Low Res attempt at a Mandelbrot Fractal in the terminal
+_start:
+	lda height
+	out terminal, setRowCount
+	out terminal, cursorHide
+	out terminal, styleBold
+	stc
+	
+yloop:
+	push c
+		
+	lda width
+	stc
+	xloop:
+				
+		lda width
+		div 2.0
+		sub col
+		mul 4.0
+		div width
+		sta cre
+		
+		lda height
+		div 2.0
+		sub row
+		mul 4.0
+		div width
+		sta cim
+			
+		lda 0
+		sta x
+		sta y
+		sta iteration
+	
+		computeLoop:
+		
+			lda y
+			mul y
+			sta b
+			lda x
+			mul x
+			sub b
+			add cre
+			sta xnew
+			
+			lda 2
+			mul x
+			mul y
+			add cim
+			sta y
+			
+			lda xnew
+			sta x
+			
+			lda iteration
+			inc
+			sta iteration
+	
+			lda x
+			mul x
+			sta b
+			
+			lda y
+			mul y
+			add b
+			
+			cmp 4
+			jl plot
+			
+			lda max
+			cmp iteration
+			jgz skipPlot
+		
+			jp computeLoop
+	
+		plot:
+
+		lda iteration
+		add 23
+		out terminal
+
+		lda col
+		inc
+		out terminal, cursorColumn		
+		lda row
+		inc
+		out terminal, cursorRow
+		lda 35
+		out
+			
+		skipPlot:
+			
+		;increment col
+		lda col
+		inc
+		sta col
+		
+	lp xloop
+	
+	lda 0
+	sta col
+	
+	;increment row
+	lda row
+	inc
+	sta row
+	
+	in
+	cmp 32
+	jz exit
+					
+	pop c
+lp yloop
+				
+	hlt
+
+exit:
+	out terminal, cursorShow
+	brk
+
+;Variables
+dd width, 80
+dd height 30
+dd xnew, 0
+dd cre, 0
+dd cim, 0
+dd x, 0
+dd y, 0
+dd iteration, 0
+dd max, 23
+dw row, 0
+dw col, 0
+
+
