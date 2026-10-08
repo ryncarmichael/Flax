@@ -4,7 +4,7 @@
 https://github.com/ryncarmichael/Flax/releases/tag/Beta1.3
 
 ## About
-Flax is a high-speed assembly language, compiler, and runtime engine originally designed for teaching low-level programming concepts without the danger of bricking the machine with native assembly.
+Flax is a general-purpose, high-speed assembly language compiler and runtime, which has often been used for teaching low-level programming concepts.
 
 Even though Flax is the latest incarnation of what was and has been developed in-house over many years and is still fit for its original purpose, Flax’s new design makes it ideal for use outside of the education space as well.
 
@@ -12,9 +12,9 @@ From traditional or personal education, entertainment, high-speed scripting, and
 
 More detail and frequent development streams are available on the project's YouTube channel: https://www.youtube.com/@TheFlaxProject
 
-_(1) Although Flax code is assembly-like in nature, it is not assembly language in the strictest sense. It is not tied to a specific hardware platform or CPU vendor’s instruction set. Flax code is platform-independent, as explained in the System Manual._
+_(1) Although Flax code is assembly-like in nature, it is not assembly language in the strictest sense, as it is not tied to a specific hardware platform or CPU vendor’s instruction set._
 
-_(2) Flax is not, and is not intended to become, a game engine. It is primarily a language designed for educational purposes. A GUI-based version may be introduced in the future, but it will not include the complexity or feature set of a conventional game engine._
+_(2) Flax is not, and is never intended to become, a game engine.  A GUI-based version may be introduced in the future, but it will not include the complexity or feature set of a conventional game engine._
 
 _(3) The Flax Language Project is entirely separate from the Flax Game Engine. It does not reproduce, compete with, or incorporate features from that engine. The Flax Language Project is the continuation of a language developed for educational purposes over many years._
 
