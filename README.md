@@ -24,7 +24,7 @@ I accept that such performance benchmarks are usually entirely useless as they a
 
 In this case, however, they have a use, if only for myself.  As I've run exactly the same code on every prior version and have those performance numbers, they show a clear improvement over time.
 
-The prior versions ran at **3**, **13**, **80**, and **145** _(MIPS)_ and the latest with Odin **600+**.
+The prior versions ran at **3**, **13**, **80**, and **145** _(MIPS)_ and the latest **600+**.
 
 This doesn't mean that any of the prior versions were bad; they were perfect for their use case. I doubt you could even tell the difference between the version running at **3** and the latest version.
 
