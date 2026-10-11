@@ -1,7 +1,7 @@
 # Welcome to The Flax Language Project
 
 ## Latest Release
-https://github.com/ryncarmichael/Flax/releases/tag/Beta1.3
+https://github.com/ryncarmichael/Flax/releases/tag/Beta1.4
 
 ## About
 Flax is a general-purpose, high-speed assembly language compiler and runtime, which has often been used for teaching low-level programming concepts.
