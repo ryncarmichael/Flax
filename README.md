@@ -4,9 +4,9 @@
 https://github.com/ryncarmichael/Flax/releases/tag/Beta1.5
 
 ## About
-Flax is a general-purpose, high-speed assembly language compiler and runtime, which has often been used for teaching low-level programming concepts.
+Flax is a general-purpose, high-speed assembly language compiler and runtime, frequently used for teaching low-level programming concepts.
 
-Even though Flax is the latest incarnation of what was and has been developed in-house over many years and is still fit for its original purpose, Flax’s new design makes it ideal for use outside of the education space as well.
+Even though Flax is the latest incarnation of what was and has been developed in-house over many years and is still fit for its original purpose, Flax’s new design makes it ideal for use outside the education sector.
 
 From traditional or personal education, entertainment, high-speed scripting, and even cluster-based applications.  The list of possibilities is endless.
 
@@ -20,15 +20,15 @@ _(3) The Flax Language Project is entirely separate from the Flax Game Engine. I
 
 ## Performance
 
-I accept that such performance benchmarks are usually entirely useless as they aren't performing any real-world task and are just fluff to inflate the developers’ ego.
+We accept that such performance benchmarks are usually entirely useless as they aren't performing any real-world task and are just fluff to inflate the developers’ ego.
 
-In this case, however, they have a use, if only for myself.  As I've run exactly the same code on every prior version and have those performance numbers, they show a clear improvement over time.
+In this case, however, they have a use, if only for us.  As we've run exactly the same code on every prior version and have those performance numbers, they show a clear improvement over time.
 
 The prior versions ran at **3**, **13**, **80**, and **145** _(MIPS)_ and the latest **600+**.
 
-This doesn't mean that any of the prior versions were bad; they were perfect for their use case. I doubt you could even tell the difference between the version running at **3** and the latest version.
+This doesn't mean that any of the prior versions were bad; they were perfect for their use case. I doubt you could even tell the difference between the version running at **3** and the latest in everyday use.
 
-All this benchmark really shows is that there is a lot more headroom available in this version than the previous one.
+All this benchmark really shows is that there is a lot more performance headroom available in this version than the previous.
 
 <img width="1280" height="821" alt="Screenshot 2026-10-08 at 7 17 02 pm" src="https://github.com/user-attachments/assets/f4758978-0336-4bfd-98bb-2fa765289ad8" />
 
