@@ -10,8 +10,6 @@ Even though Flax is the latest incarnation of what was and has been developed in
 
 From traditional or personal education, entertainment, high-speed scripting, and even cluster-based applications.  The list of possibilities is endless.
 
-More detail and frequent development streams are available on the project's YouTube channel: https://www.youtube.com/@TheFlaxProject
-
 _(1) Although Flax code is assembly-like in nature, it is not assembly language in the strictest sense, as it is not tied to a specific hardware platform or CPU vendor’s instruction set._
 
 _(2) Flax is not, and is never intended to become, a game engine.  A GUI-based version may be introduced in the future, but it will not include the complexity or feature set of a conventional game engine._
