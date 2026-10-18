@@ -34,13 +34,11 @@ All this benchmark really shows is that there is a lot more performance headroom
 
 - **What does the name Flax mean, is it an acronym and why was it chosen?**
 
-   No, Flax is not an acronym.  It’s just a name we chose which sounded good but at the same time honours the flax plant, which in prior times was used for making cloth and sails for sailing ships.  The flax plant has so many positive uses that if used to its full potential could be very beneficial.  If you really needed an acronym though, ‘Functional Learning Assembly Execution’ would fit.
+   No, Flax is not an acronym.  It’s just a name we chose which sounded good but at the same time honours the flax plant, which in prior times was used for making cloth and sails for sailing ships. If you really needed an acronym though, ‘Functional Learning Assembly Execution’ would fit.
  
 - **What operating systems does Flax support?**
 
-   Flax is only supported on macOS, with Apple Silicon or x86 processors.  If the required cross-platform tooling were ever released, we _might_ consider a Linux version with x86 and Arm processor builds.
-
-   Windows will not be supported until a possible GUI version, due to Flax relying on UNIX-style terminal commands which are not supported on Windows.
+   Flax is only supported on macOS, with Apple Silicon or x86 processors.
 
 - **Could Flax be used to write a virus?**
 
@@ -52,7 +50,7 @@ All this benchmark really shows is that there is a lot more performance headroom
 
 - **How much does Flax cost?**
 
-   Flax has a non-commercial use licence, so for personal, non-business use, it’s free.  Business use will be assessed on a case-by-case basis, but at most a small yearly per-seat licence fee may be required.  You’re welcome to email us for further information.
+   Flax has a non-commercial use licence, so for personal, non-business use, it’s free. 
 
 ## Screen Shots
 
