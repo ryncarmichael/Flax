@@ -145,8 +145,7 @@ number
 keyBoardBuffer
 terminal
 fileIO
-xml
-utf
+memBlock
 openFile
 closeFile
 appendFile
@@ -160,6 +159,7 @@ resetPointer
 @include
 @enableTestCode
 @suppressWarnings
+@fileIOPath
 timerTimeNow
 timerTimeSince
 clearScreen
