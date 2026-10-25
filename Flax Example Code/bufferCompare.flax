@@ -1,0 +1,90 @@
+;Sample Program to explain the process of comparing a buffer.
+_start:
+	lda true
+	sys flag, autoPauseEnabled
+
+mainLoop:
+	hlt
+	out
+	sta keyCode
+	
+	jsr checkKeyCodes
+	
+	jp mainLoop
+	
+exit:
+	brk
+	rts
+
+checkKeyCodes:
+	pusha
+	lda keyCode
+	cmp escapeKey
+	jsrz exit
+	
+	lda keyCode
+	cmp enterKey
+	jsrz compareBuffer
+	jz endKeyCheck;
+
+	;Store the keyCode in the buffer
+	lda keyCode
+	sta buffer, pointer
+	lda pointer
+	inc
+	sta pointer	
+
+endKeyCheck:
+	popa
+	rts
+
+compareBuffer:
+	pusha
+	
+	len testBuffer
+	stc
+compareLoop:
+	lda buffer, c
+	sta r0
+	lda testBuffer,c
+	cmp r0
+	jnz noMatch
+	lp compareLoop
+
+	out success
+	out testBuffer	
+	brk
+	
+noMatch:
+	out notEqual
+	jsr clearBuffer
+	popa
+	rts
+
+clearBuffer:
+	pusha
+	len buffer
+	stc
+clearLoop:
+	lda 0
+	sta buffer,c
+	lp clearLoop
+
+	lda 0
+	sta pointer
+	
+	popa
+	rts
+
+db pointer, 0
+db keyCode, 0
+db escapeKey, 27
+db enterKey, 10
+db buffer, &50
+db testBuffer, "Hello"
+db success, "You typed: "
+db notEqual, "Not Equal.\n"
+
+
+
+

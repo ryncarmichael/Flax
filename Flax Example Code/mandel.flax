@@ -14,16 +14,16 @@ yloop:
 	xloop:
 				
 		lda width
-		div 2.0
+		div 2
 		sub col
-		mul 4.0
+		mul 4
 		div width
 		sta cre
 		
 		lda height
-		div 2.0
+		div 2
 		sub row
-		mul 4.0
+		mul 4
 		div width
 		sta cim
 			

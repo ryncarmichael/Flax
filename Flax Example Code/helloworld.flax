@@ -19,4 +19,4 @@ mainLoop:
 end:
 	brk
 
-db myMsg, "Hello, Flax World!\n"
+db myMsg, "Hello, \"Flax\" World!\n"

@@ -6,22 +6,24 @@ _start:
 	jsr fillBuffer
 	jsr printData
 	jsr bubbleSort
-	lda 10
-	out
-	out
 	jsr printData
 	
+	lda loops
+	out number
+
 exit:
 	brk
+
 
 bubbleSort:
 	
 sortStart:
+	lda loops
+	inc
+	sta loops
+
 	lda false
 	sta flip
-
-	lda count
-	out number
 
 	lda 0
 	sta lvp
@@ -36,7 +38,7 @@ sortLoop:
 	lda sortData, uvp
 	sta r1
 	cmp r0
-	jlz skipFlip
+	jgz skipFlip
 	
 	xch r0, r1
 	
@@ -45,9 +47,9 @@ sortLoop:
 	lda r1
 	sta sortData, uvp
 	
-	lda lvp ;Store the highest flip, and reduce the loop count to that.
-	dec
-	sta count
+	;lda lvp ;Store the highest flip, and reduce the loop count to that.
+	;dec
+	;sta count
 		
 	stb flip
 	
@@ -58,24 +60,41 @@ skipFlip:
 	sta uvp
 	lp sortLoop
 	
+	;lda oldcount
+	;sub count
+	;jz skip
+	;cmp 1
+	;jz skip
+
+	;lda oldcount
+	;out number
+	;lda count
+	;out number
+skip:
+	;lda count
+	;sta oldcount
+	
+	;lda count
+	;dec
+	;sta count
+	
 	lda flip
 	jnz sortStart
+	jsr padSections
 	rts
+
 
 printData:
 	len sortData
 	stc
 printLoop:
-	lda 99
-	sub c
-	lda sortData, a
+	lda sortData, c
 	out number
 	lp printLoop
-	
-	lda 10
-	out
-	out
+
+	jsr padSections
 	rts
+
 
 fillBuffer:
 	len sortData
@@ -87,8 +106,18 @@ fillLoop:
 	lp fillLoop
 	rts
 
+
+padSections:
+	out terminal, cursorDown	
+	out terminal, cursorDown
+	out terminal, cursorLineHome
+	rts
+
+
 ;Variables
+db loops, 0
 db count, 98
+db oldcount, 98
 db flip, 0
 db lvp, 0
 db uvp, 0

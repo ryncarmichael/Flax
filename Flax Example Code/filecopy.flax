@@ -1,4 +1,6 @@
 ;Flax File Copy Program
+@fileIOPath "files"
+
 _start:
 	lda #inFile
 	in fileIO, openFile
@@ -21,5 +23,5 @@ endCopy:
 
 	brk
 
-file inFile, "files/test.txt"
-file outFile, "files/out.txt"
+file inFile, "test.txt"
+file outFile, "out.txt"
