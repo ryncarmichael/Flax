@@ -3,6 +3,11 @@
 ## Latest Release
 https://github.com/ryncarmichael/Flax/releases/tag/Beta1.6
 
+## YouTube
+https://www.youtube.com/@TheFlaxProject
+
+Monthly updates, development sessions covering both Flax assembly and the underlying Odin code, including everything we screw up.
+
 ## About
 Flax is a general-purpose, high-speed assembly language compiler and runtime, frequently used for teaching low-level programming concepts.
 
@@ -38,7 +43,7 @@ All this benchmark really shows is that there is a lot more performance headroom
  
 - **What operating systems does Flax support?**
 
-   During development Flax is only supported on macOS, with Apple Silicon or x86 processors.  As we get closer to release we'll be adding Linux ARM and AMD 64 support.
+  During development, Flax is only supported on macOS, with Apple Silicon or x86 processors.  As we get closer to release, we'll be adding Linux ARM and AMD 64 support.
 
 - **Could Flax be used to write a virus?**
 
