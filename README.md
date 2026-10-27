@@ -6,7 +6,7 @@ https://github.com/ryncarmichael/Flax/releases/tag/Beta1.6
 ## YouTube
 https://www.youtube.com/@TheFlaxProject
 
-Monthly updates and development sessions, covering both Flax assembly and the underlying Odin code, including everything we screw up in the process.
+Monthly updates and development sessions, covering Flax assembly, the underlying Odin code, and the tooling required to create a bespoke development environment.  You get to see it all.  Warts and all – including everything we screw up in the process.
 
 ## About
 Flax is a general-purpose, high-speed assembly language compiler and runtime, frequently used for teaching low-level programming concepts.
