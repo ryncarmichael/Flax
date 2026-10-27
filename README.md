@@ -38,7 +38,7 @@ All this benchmark really shows is that there is a lot more performance headroom
  
 - **What operating systems does Flax support?**
 
-   Flax is only supported on macOS, with Apple Silicon or x86 processors.
+   During development Flax is only supported on macOS, with Apple Silicon or x86 processors.  As we get closer to release we'll be adding Linux ARM and AMD 64 support.
 
 - **Could Flax be used to write a virus?**
 
