@@ -55,7 +55,8 @@ All this benchmark really shows is that there is a lot more performance headroom
 
 - **How much does Flax cost?**
 
-   Flax has a non-commercial use licence, so for personal, non-business use, it’s free. 
+   Flax has a non-commercial use licence, so for personal, non-business use, it’s free.  For commercial licensing inquiries, contact the project team through GitHub.
+ 
 
 ## Screen Shots
 
