@@ -1,4 +1,4 @@
-## Flax Language Guide. (c) 2026 The Flax Language Project.
+Flax Language Guide. (c) 2026 The Flax Language Project.
 
 The following file details the required information for creating
 your own language modules and scripts for your preferred editor. If
@@ -9,6 +9,10 @@ features or language changes.
 
 For ease of readability, all the following sections within your editor's
 configuration should be highlighted in separate colours.
+
+Editor configuration files provided are examples which call our own scripts;
+you should make your own versions of the called scripts to suit your
+personal environment and preferences.
 
 
 Comments
