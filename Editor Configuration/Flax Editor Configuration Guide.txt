@@ -10,10 +10,6 @@ features or language changes.
 For ease of readability, all the following sections within your editor's
 configuration should be highlighted in separate colours.
 
-Editor configuration files provided are examples which call our own scripts;
-you should make your own versions of the called scripts to suit your
-personal environment and preferences.
-
 
 Comments
 -------------------------------------------------------------
