@@ -43,7 +43,7 @@ All this benchmark really shows is that there is a lot more performance headroom
  
 - **What operating systems does Flax support?**
 
-   During development, Flax is only supported on macOS, with Apple Silicon or x86 processors.  As we get closer to release, we'll be adding Linux ARM64 and Linux AMD64 support.
+   Previous versions of Flax have been macOS only, though moving forward, with Beta 1.7 and later we’ll be adding 64-bit Linux support for both amd64 and arm64 processors.
 
 - **Could Flax be used to write a virus?**
 
@@ -55,7 +55,7 @@ All this benchmark really shows is that there is a lot more performance headroom
 
 - **How much does Flax cost?**
 
-   Flax has a non-commercial use licence, so for personal, non-business use, it’s free.  For commercial licensing inquiries, contact the project team through GitHub.
+   Flax has a non-commercial use license, so for personal, non-business use, it’s free.  Business use will be assessed on a case-by-case basis, but at most a small yearly per-seat license fee may be required.  You’re welcome to contact us through GitHub for further information.
  
 
 ## Screen Shots
