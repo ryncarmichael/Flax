@@ -9,7 +9,7 @@ _start:
 	lda true
 	sys flag, debugEnabled
 
-	;Create a test file to delets
+	;Create a test file to delete
 	lda #memFile
 	out memBlock ;Comment out this line to stop the file being created
 
