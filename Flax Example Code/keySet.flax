@@ -1,0 +1,34 @@
+;Program to demonstrate using a key set.
+;Requires Beta 1.7 or later.
+@runtimeSnapShotFull ;Turned on to show the loaded values in the memory blocks
+
+@fileIOPath "files"
+_start:
+	lda true
+	sys flag, debugEnabled
+
+	jsr fillMemBlock ;Fill the origional memory block with some values
+	
+	lda #orgMemBlock ;Save the original memory block with the default filenam
+	out memBlock
+
+	lda #altMemBlock ;Override the filename key to load the values into altMemBlock
+	in memBlock <- "fileName:orgMemBlock.csv"
+	
+	brk ;Make sure we end the program before over running the subroutine
+
+
+fillMemBlock:
+	pusha
+	lda 99 ;Always 1 less as variable memory blocks are zero based
+	stc
+loop:
+	lda c
+	sta orgMemBlock, c
+	lp loop
+	popa
+	rts
+
+;Define our memory blocks with 100 values.
+db orgMemBlock, &100
+db altMemBlock, &100

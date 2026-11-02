@@ -1,4 +1,5 @@
 ;This little example shows how to test if a file exists
+;Requires Beta 1.7 or Later
 @fileIOPath "files"
 
 _start:
