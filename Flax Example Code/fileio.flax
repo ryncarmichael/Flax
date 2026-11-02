@@ -1,6 +1,5 @@
 ;Flax File IO - Reading Example
 @fileIOPath "files"
-
 _start:
 	lda true
 	sys flag, debugEnabled

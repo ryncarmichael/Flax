@@ -1,0 +1,19 @@
+;This little example shows how to test if a file exists
+@fileIOPath "files"
+
+_start:
+	lda true
+	sys flag, debugEnabled
+
+	lda #testFile 			;Load the address of the fileVariable
+	in fileIO, fileExists	;Test it exist
+
+	cmp true				;Check for true result
+	jnz end					;Would be zero after cmp if file exist
+	out msg					;Display our file exists message
+		
+end:
+	brk
+
+file testFile, "test.txt"
+db msg, "Yay file exists!\n"

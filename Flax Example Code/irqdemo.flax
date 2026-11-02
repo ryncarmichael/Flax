@@ -41,17 +41,17 @@ notExpired:
 	
 _irq:
 	pusha
-
 	out irqMsg
-	
 	popa
 	rti
 
 
 timerExpired:
+	pusha
 	gt timerTimeNow
 	sta timer
 	out timerMsg
+	popa
 	rts
 	
 exit:

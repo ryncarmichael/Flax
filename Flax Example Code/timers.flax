@@ -9,7 +9,7 @@ _start:
 mainLoop:
 	lda timer
 	gt timerTimeSince
-	cmp 1000 ;one seconds
+	cmp 1000 ;one second
 	jg notExpired
 	jsr timerExpired
 

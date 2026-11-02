@@ -1,0 +1,58 @@
+;This is a test program for showing how to delete a file
+;As well as testing if the file exist before and after
+;And how to force an error if the file is open
+@fileIOPath "files"
+
+_start:
+	lda true
+	sys flag, debugEnabled
+
+	;Create a test file to delets
+	lda #memFile
+	out memBlock ;Comment out this line to stop the file being created
+
+	lda #testFile
+	in fileIO, fileExists
+	jsrnz existsMessage ;Check for 1 if file exists
+	jsrz notExists ;Check for 0 if file doesn't exist
+	jz end ;No point doing anything else if file doesn't exist
+
+	;lda #testFile ;Comment out these lines to stop the file being open to force an error
+	;in fileIO, openFile
+
+	lda #testFile
+	out fileIO, deleteFile	;Comment out this line to stop delete of file
+
+	lda #testFile
+	in fileIO, fileExists	;Check if the file still exists
+	jsrz fileDeleted ;Would return 1 if file still exists looking for a zero result
+	
+end:
+	brk
+
+fileDeleted:
+	pusha
+	out fileDeletedMsg
+	popa
+	rts
+
+existsMessage:
+	pusha
+	out existsMsg
+	popa
+	rts
+
+notExists:
+	pusha
+	out notExistsMsg
+	popa
+	rts
+
+file testFile, "memFile.csv"
+db memFile, &10
+db notExistsMsg, "File Doesn't Exist!\n"
+db fileDeletedMsg, "File Has been deleted!\n"
+db existsMsg, "File Exists!\n"
+
+
+	

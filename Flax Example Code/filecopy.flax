@@ -1,6 +1,5 @@
 ;Flax File Copy Program
 @fileIOPath "files"
-
 _start:
 	lda #inFile
 	in fileIO, openFile

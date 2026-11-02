@@ -1,4 +1,4 @@
-;Flax This is an idle testing program 
+;This is an idle testing program 
 ;To see how slow Flax can be constrained
 _start:
 	lda true
