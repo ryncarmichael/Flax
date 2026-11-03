@@ -21,6 +21,14 @@ _(2) Flax is not, and is never intended to become, a game engine.  A GUI-based v
 
 _(3) The Flax Language Project is entirely separate from the Flax Game Engine. It does not reproduce, compete with, or incorporate features from that engine. The Flax Language Project is the continuation of a language developed for educational purposes over many years._
 
+## Support The Flax Project
+
+The Flax Project is a high-speed assembly language and compiler designed to make assembly easier to learn.
+
+If you find the project useful and would like to help support its continued development, you’re welcome to make a donation. Every contribution is appreciated, but there’s no obligation.
+
+[Donate via PayPal](https://paypal.me/ChartersTrig?locale.x=en_AU&country.x=AU)
+
 ## Performance
 
 We accept that such performance benchmarks are usually entirely useless as they aren't performing any real-world task and are just fluff to inflate the developers’ ego.
