@@ -23,9 +23,7 @@ _(3) The Flax Language Project is entirely separate from the Flax Game Engine. I
 
 ## Support The Flax Project
 
-The Flax Project is a high-speed assembly language and compiler designed to make assembly easier to learn.
-
-If you find the project useful and would like to help support its continued development, you’re welcome to make a donation. Every contribution is appreciated, but there’s no obligation.
+If you find this project useful and would like to help support its continued development, you’re welcome to make a donation. Every contribution is appreciated, but there’s no obligation.
 
 [Donate via PayPal](https://paypal.me/ChartersTrig?locale.x=en_AU&country.x=AU)
 
