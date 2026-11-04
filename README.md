@@ -39,7 +39,7 @@ This doesn't mean that any of the prior versions were bad; they were perfect for
 
 All this benchmark really shows is that there is a lot more performance headroom available in this version than the previous.
 
-<img width="1280" height="821" alt="Screenshot 2026-10-08 at 7 17 02 pm" src="https://github.com/user-attachments/assets/f4758978-0336-4bfd-98bb-2fa765289ad8" />
+<img width="1280" height="821" alt="Screenshot 2026-11-04 at 4 24 00 pm" src="https://github.com/user-attachments/assets/e177a616-fd61-4bc2-b179-a8a175f30e9d" />
 
 ## Frequently Asked Questions
 
