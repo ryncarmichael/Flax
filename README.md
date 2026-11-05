@@ -1,7 +1,7 @@
 # Welcome to The Flax Language Project
 
 ## Latest Release
-https://github.com/ryncarmichael/Flax/releases/tag/Beta1.6
+https://github.com/ryncarmichael/Flax/releases/tag/Beta1.7
 
 ## YouTube
 https://www.youtube.com/@TheFlaxProject
