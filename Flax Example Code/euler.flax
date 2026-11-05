@@ -23,6 +23,7 @@ skip:
 
 	lda r0
 	out number
+	out terminal, cursorDown
 
 	brk
 

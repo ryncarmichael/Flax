@@ -1,0 +1,19 @@
+;FLax UTF example, printing some graphics characters from the Menlo font.
+;Requires Flax Beta 1.7 or later
+_start:
+	lda true
+	sys flag, debugEnabled
+
+	out terminal, brightRed
+
+	lda 33 ;Set the loop length.
+	stc
+	lda 9600 ;This is the UTF value for a graphic sharacter
+loop:
+	out utf ;Check and convert the value and output the UTF glyph
+	inc ;Increment the UTF code in the A register
+	out terminal, cursorRight
+	
+	lp loop
+	
+	out terminal, cursorDown

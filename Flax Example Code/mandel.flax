@@ -1,4 +1,8 @@
 ;A Really Low Res attempt at a Mandelbrot Fractal in the terminal
+;This demo use UTF charcaters to draw the fractal, with the correct
+;line spacing set in your terminals configuration you can draw seamless
+;graphical images.
+;Requires Flax Beta 1.7 or later.
 _start:
 	lda height
 	out terminal, setRowCount
@@ -85,8 +89,8 @@ yloop:
 		lda row
 		inc
 		out terminal, cursorRow
-		lda 35
-		out
+		lda 9608 ;The UTF code for the full block character
+		out utf ;Convert the A register value to the UTF glyph
 			
 		skipPlot:
 			
@@ -112,7 +116,7 @@ yloop:
 	pop c
 lp yloop
 				
-	hlt
+	hlt ;Wait for a keypress before exit.
 
 exit:
 	out terminal, cursorShow
