@@ -146,6 +146,7 @@ keyBoardBuffer
 terminal
 fileIO
 memBlock
+utf
 openFile
 closeFile
 appendFile
