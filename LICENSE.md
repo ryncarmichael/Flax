@@ -93,5 +93,5 @@ OF OR RELATING TO FLAX OR THIS LICENSE.
 
 ## 10. Contact
 
-For commercial licensing inquiries, contact the project team through GitHub.
+For commercial licensing inquiries, contact the project team.  **[Email the Project Team](mailto:theflaxproject@icloud.com)**
 
