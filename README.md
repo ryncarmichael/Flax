@@ -1,15 +1,15 @@
 # Welcome to The Flax Language Project
 
 ## Latest Release
-https://github.com/ryncarmichael/Flax/releases/tag/Beta1.7
+**[Beta 1.7 Release: 06/11/2026](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.7)**
 
 ## YouTube
-https://www.youtube.com/@TheFlaxProject
+**[The Flax Project YouTube Channel](https://www.youtube.com/@TheFlaxProject)**
 
-Monthly updates and development sessions, covering Flax assembly, the underlying Odin code, and the tooling required to create a bespoke development environment.  You get to see it all.  Warts and all – including everything we screw up in the process.
+The project’s YouTube channel is a great place to learn more.  With monthly updates and development sessions covering Flax assembly, the underlying **[Odin](https://odin-lang.org)** code, and the tooling required to create a bespoke development environment.  You get to see it all.  Warts and all – including everything we screw up in the process.
 
 ## About
-Flax is a general-purpose, high-speed assembly language compiler and runtime, frequently used for teaching low-level programming concepts.
+Flax is a general-purpose, high-speed assembly language compiler and runtime, often used for teaching low-level programming concepts.
 
 Even though Flax is the latest incarnation of what was and has been developed in-house over many years and is still fit for its original purpose, Flax’s new design makes it ideal for use outside the education sector.
 
@@ -25,7 +25,7 @@ _(3) The Flax Language Project is entirely separate from the Flax Game Engine. I
 
 If you find this project useful and would like to help support its continued development, you’re welcome to make a donation. Every contribution is appreciated, but there’s no obligation.
 
-[Donate via PayPal](https://paypal.me/ChartersTrig?locale.x=en_AU&country.x=AU)
+**[Donate via PayPal](https://paypal.me/ChartersTrig?locale.x=en_AU&country.x=AU)**
 
 ## Performance
 
@@ -33,9 +33,9 @@ We accept that such performance benchmarks are usually entirely useless as they 
 
 In this case, however, they have a use, if only for us.  As we've run exactly the same code on every prior version and have those performance numbers, they show a clear improvement over time.
 
-The prior versions ran at **3**, **13**, **80**, and **145** _(MIPS)_ and the latest **600+**.
+The prior versions ran at **3**, **13**, **80**, and **145** _(MIPS)_ and the latest using **[Odin](https://odin-lang.org)** as a backend **600+**.
 
-This doesn't mean that any of the prior versions were bad; they were perfect for their use case. I doubt you could even tell the difference between the version running at **3** and the latest in everyday use.
+This doesn't mean that any of the prior versions were bad; at the time they were perfect for their use case. I doubt you could even tell the difference between the version running at **3** and the latest in everyday use.
 
 All this benchmark really shows is that there is a lot more performance headroom available in this version than the previous.
 
@@ -45,23 +45,23 @@ All this benchmark really shows is that there is a lot more performance headroom
 
 - **What does the name Flax mean, is it an acronym and why was it chosen?**
 
-   No, Flax is not an acronym.  It’s just a name we chose which sounded good but at the same time honours the flax plant, which in prior times was used for making cloth and sails for sailing ships. If you really needed an acronym though, ‘Functional Learning Assembly Execution’ would fit.
+   No, Flax is not an acronym.  It’s just a name we chose which sounded good and also reminds us of a time when the Flax plant was used for making cloth and sails for sailing ships. If you really needed an acronym, though, ‘Functional Learning Assembly Execution’ would fit.
  
 - **What operating systems does Flax support?**
 
-   Previous versions of Flax have been macOS only, though moving forward, with Beta 1.7 and later we’ll be adding 64-bit Linux support for both amd64 and arm64 processors.
+   Previous versions of Flax have been macOS only; however, moving forward, from Beta 1.7 onward, Flax will also be available on Linux with amd64 and arm64 builds.
 
-- **Could Flax be used to write a virus?**
+- **Could Flax be used maliciously?**
 
-   No!  Flax has been designed to adhere to all operating system security requirements.  It will never try to access any area outside which you’ve given it access to, and that list should only include the folder you’ve chosen to store your Flax files within.  Flax does not and never will have network or internet access capabilities.  Even its FileIO is limited to the directory in which you’ve stored your Flax code.
+   No!  Flax has been designed to adhere to all operating system security requirements.  It will never try to access any area outside of which you’ve given it access to, and that list should only include the folder you’ve chosen to store your Flax files within.  Flax does not and never will have network or internet access capabilities. Even its FileIO is limited to the directory in which you’ve stored your Flax code.
 
 - **What can Flax be used for?**
 
-   Anything you wish.  From cluster computing tasks, general programming, personal or structured education.  This list is endless, really.  You could even just have a play and try something different.  Flax was designed to promote inventive thinking and creative solutions.
+   Anything you wish.  Cluster computing, general programming, entertainment, as well as personal or structured education.  The list is endless.  You could even just have a play to try something different.  Flax was designed to promote inventive thinking and creative solutions.
 
 - **How much does Flax cost?**
 
-   Flax is not open source; it’s licensed as NON-Commercial so it can be used by anyone or any educational institution for educational purposes for free.  We made this decision so that we can maintain the compiler and language for use in education without that core goal being diluted.  A per-seat licence fee is required for business use.
+   Flax is not open source; it is licensed as NON-Commercial so that it can be used by anyone or any educational institution for educational purposes for free forever.  We didn't make this decision lightly.  It was done so that we could maintain the compiler and language for use in education without that core goal being diluted.  A per-seat licence fee is required for business use. **[Flax Licence Agreement]**(https://github.com/ryncarmichael/Flax/blob/main/LICENSE.md)
  
 
 ## Screen Shots
