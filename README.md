@@ -61,7 +61,7 @@ All this benchmark really shows is that there is a lot more performance headroom
 
 - **How much does Flax cost?**
 
-   Flax has a non-commercial use license, so for personal, non-business use, it’s free.  Business use will be assessed on a case-by-case basis, but at most a small yearly per-seat license fee may be required.  You’re welcome to contact us through GitHub for further information.
+   Flax is not open source; it’s licensed as NON-Commercial so it can be used by anyone or any educational institution for educational purposes for free.  We made this decision so that we can maintain the compiler and language for use in education without that core goal being diluted.  A per-seat licence fee is required for business use.
  
 
 ## Screen Shots
