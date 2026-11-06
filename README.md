@@ -1,7 +1,7 @@
 # Welcome to The Flax Language Project
 
 ## Latest Release
-**[Beta 1.7 Release: 06/11/2026](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.7)**
+**[Beta 1.7 Released 6 November 2026](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.7)**
 
 ## YouTube
 **[The Flax Project YouTube Channel](https://www.youtube.com/@TheFlaxProject)**
