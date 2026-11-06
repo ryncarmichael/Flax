@@ -61,7 +61,7 @@ All this benchmark really shows is that there is a lot more performance headroom
 
 - **How much does Flax cost?**
 
-   Flax is not open source; it is licensed as NON-Commercial so that it can be used by anyone or any educational institution for educational purposes for free forever.  We didn't make this decision lightly.  It was done so that we could maintain the compiler and language for use in education without that core goal being diluted.  A per-seat licence fee is required for business use. **[Flax Licence Agreement]**(https://github.com/ryncarmichael/Flax/blob/main/LICENSE.md)
+   Flax is not open source; it is licensed as NON-Commercial so that it can be used by anyone or any educational institution for educational purposes for free forever.  We didn't make this decision lightly.  It was done so that we could maintain the compiler and language for use in education without that core goal being diluted.  A per-seat licence fee is required for business use. **[Flax Licence Agreement](https://github.com/ryncarmichael/Flax/blob/main/LICENSE.md)**
  
 
 ## Screen Shots
