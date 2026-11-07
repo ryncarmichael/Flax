@@ -8,3 +8,5 @@ Hopefully we can get a real competition started.  Email your results to **[The F
 | Rank | Nick Name | MIPS | Machine Specifications | OS |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | Ryn | 605581720.84168 | Mac Studio 2022, M1 Max, 32GB Ram | Golden Gate 27.2 |
+| 2 | Buildy | 462606478.29775 | Mid 2012 MacBook Pro Retina, Intel i7 Quad Core, 16GB Ram | Sequoia 15.8.2 |
+| 3 | SlowPoke | 256429162.69690 | VirtualBox Intel i7-3820QM x 4, 8GB Ram | Ubuntu 26.04.1 LTS |
