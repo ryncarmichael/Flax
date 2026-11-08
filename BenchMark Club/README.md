@@ -1,5 +1,5 @@
 # The Flax Benchmark Club.
-Want to join the club?  It's simple.  Download the **[Speed Tester](https://github.com/ryncarmichael/Flax/raw/main/BenchMark%20Club/speedtest.zip?download=1)** and run the **eflax** file in **[Flax](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.7)** on your computer, either Linux or macOS.  Once complete, send us a screenshot of your terminal, a nickname for yourself, your machine specs, OS and Flax version; then we'll include your score here, ranked along with others.  **[Download the Speed Tester.](https://github.com/ryncarmichael/Flax/raw/main/BenchMark%20Club/speedtest.zip?download=1)**
+Want to join the club?  It's simple.  Download the **[Speed Tester](https://github.com/ryncarmichael/Flax/raw/main/BenchMark%20Club/speedtest.zip?download=1)** and run the **eflax** file in **[Flax](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.7)** within the terminal on your computer, either Linux or macOS.  Once complete, send us a screenshot of your terminal, a nickname for yourself, your machine specs, OS and Flax version; then we'll include your score here, ranked along with others.  **[Download the Speed Tester.](https://github.com/ryncarmichael/Flax/raw/main/BenchMark%20Club/speedtest.zip?download=1)**
 
 | **Running the Speed Tester** | **Flax Version** |
 | :--- | :--- |
