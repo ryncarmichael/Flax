@@ -21,7 +21,7 @@ _(3) The Flax Language Project is entirely separate from the Flax Game Engine. I
 
 If you find this project useful and would like to support its continued development, you’re welcome to make a donation. Every contribution is appreciated, but there’s no obligation. You could also email us if you’d like to help improve Flax or contribute to its documentation.
 
-| Donate | Contact the Team. |
+| Sponsor this project | Contact the Team. |
 | :---: | :---: |
 | [Donate Securely with PayPal](https://paypal.me/ChartersTrig?locale.x=en_AU&country.x=AU) | [Email The Flax Project Team](mailto:theflaxproject@icloud.com) |
 
