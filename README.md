@@ -1,12 +1,8 @@
 # Welcome to The Flax Language Project
 
-## Latest Release
-**[Beta 1.7 Released 6 November 2026](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.7)**
-
-## YouTube
-**[The Flax Project YouTube Channel](https://www.youtube.com/@TheFlaxProject)**
-
-The project’s YouTube channel is a great place to learn more.  With monthly updates and development sessions covering Flax assembly, the underlying **[Odin](https://odin-lang.org)** code, and the tooling required to create a bespoke development environment.  You get to see it all.  Warts and all – including everything we screw up in the process.
+| Latest Release | YouTube Channel | Bench Mark Club | Want to Help? |
+| :---: | :---: | :---: | :---: |
+| [Beta 1.7 Released 06/11/2026](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.7) | [The Flax Project's Official Channel](https://www.youtube.com/@TheFlaxProject) | [View the Latest Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Flax Project Team](mailto:theflaxproject@icloud.com) |
 
 ## About
 Flax is a general-purpose, high-speed assembly language compiler and runtime, often used for teaching low-level programming concepts.
@@ -23,23 +19,25 @@ _(3) The Flax Language Project is entirely separate from the Flax Game Engine. I
 
 ## Support The Flax Project
 
-If you find this project useful and would like to help support its continued development, you’re welcome to make a donation. Every contribution is appreciated, but there’s no obligation.
+If you find this project useful and would like to support its continued development, you’re welcome to make a donation. Every contribution is appreciated, but there’s no obligation. You could also email us if you’d like to help improve Flax or contribute to its documentation.
 
-**[Donate via PayPal](https://paypal.me/ChartersTrig?locale.x=en_AU&country.x=AU)**
+| Donate | Contact the Team. |
+| :---: | :---: |
+| [Donate Securely with PayPal](https://paypal.me/ChartersTrig?locale.x=en_AU&country.x=AU) | [Email The Flax Project Team](mailto:theflaxproject@icloud.com) |
 
 ## Performance
 
-We accept that such performance benchmarks are usually entirely useless as they aren't performing any real-world task and are just fluff to inflate the developers’ ego.
-
-In this case, however, they have a use, if only for us.  As we've run exactly the same code on every prior version and have those performance numbers, they show a clear improvement over time.
+We accept that such performance benchmarks are usually entirely useless as they aren't performing any real-world task and are just fluff to inflate the developers’ ego. In this case, however, they have a use, if only for us.  As we've run exactly the same code on every prior version and have those performance numbers, they show a clear improvement over time.
 
 The prior versions ran at **3**, **13**, **80**, and **145** _(MIPS)_ and the latest using **[Odin](https://odin-lang.org)** as a backend **600+**.
 
-This doesn't mean that any of the prior versions were bad; at the time they were perfect for their use case. I doubt you could even tell the difference between the version running at **3** and the latest in everyday use.
-
-All this benchmark really shows is that there is a lot more performance headroom available in this version than the previous.
+This doesn't mean that any of the prior versions were bad; at the time they were perfect for their use case. I doubt you could even tell the difference between the version running at **3** and the latest in everyday use. All this benchmark really shows is that there is a lot more performance headroom available in this version than the previous.
 
 <img width="1280" height="821" alt="Screenshot 2026-11-04 at 4 24 00 pm" src="https://github.com/user-attachments/assets/e177a616-fd61-4bc2-b179-a8a175f30e9d" />
+
+## Official YouTube Channel.
+
+**[The Flax Project's YouTube Channel](https://www.youtube.com/@TheFlaxProject)** is a great place to learn more. With monthly updates and development sessions covering Flax assembly, the underlying **[Odin](https://odin-lang.org)** code, and the tooling required to create a bespoke development environment. You get to see it all.  Warts and all – including everything we screw up in the process.
 
 ## Frequently Asked Questions
 
