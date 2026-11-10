@@ -10,7 +10,7 @@ Hopefully we can get a real competition started.  **Email** your results to **[T
 
 ## Scores
 
-| **Rank** | **Nick Name** | **MIPS** | **Machine Specifications** | **OS** | **Flax Version** |
+| **Rank** | **Nick Name** | **Average IPS** | **Machine Specifications** | **OS** | **Flax Version** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Ryn | 608586980.02909 | Mac Studio, M1 Max, 32GB | Golden Gate 27.2.1 | 1.8 |
 | 2 | Ryn | 606556217.18477 |  Mac Studio, M1 Max, 32GB | Golden Gate 27.2 | 1.7 | 
