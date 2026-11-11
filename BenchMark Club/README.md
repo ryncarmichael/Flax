@@ -18,4 +18,4 @@ Hopefully we can get a real competition started.  **Email** your results to **[T
 | 4 | Naénig | 430538523.52756 | AMD Ryzen 5 3600, 64GB | Fedora Linux 45 7.2.15 | 1.7 |
 | 5 | SlowPoke | 2844696629.42174 | VirtualBox Intel i7-3820QM x 4, 8GB | Ubuntu 26.04.1 LTS | 1.7 |
 
-(IPS) 'Instructions Per Second'.
+(IPS) Instructions Per Second.
