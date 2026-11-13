@@ -7,11 +7,11 @@
 ## About
 Flax is a general-purpose, high-speed assembly language compiler and runtime, often used for teaching low-level programming concepts.
 
-Even though Flax is the latest incarnation of what was and has been developed in-house over many years and is still fit for its original purpose, Flax’s new design makes it ideal for use outside the education sector.
+Even though Flax is the latest incarnation of what was and has been developed in-house over many years and is still fit for its original purpose, Flax's new design makes it ideal for use outside of the education space as well.
 
 From traditional or personal education, entertainment, high-speed scripting, and even cluster-based applications.  The list of possibilities is endless.
 
-_(1) Although Flax code is assembly-like in nature, it is not assembly language in the strictest sense, as it is not tied to a specific hardware platform or CPU vendor’s instruction set._
+_(1) Although Flax code is assembly-like in nature, it is not assembly language in the strictest sense, as it is not tied to a specific hardware platform or CPU vendor's instruction set, and we've also been generous in including some functionality not traditionally available in native assembly._
 
 _(2) Flax is not, and is never intended to become, a game engine.  A GUI-based version may be introduced in the future, but it will not include the complexity or feature set of a conventional game engine._
 
