@@ -12,7 +12,7 @@ Hopefully we can get a real competition started.  **Email** your results to **[T
 
 | **Rank** | **Nick Name** | **Average IPS** | **Machine Specifications** | **OS** | **Flax Version** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Ryn | 608833234.78990 | Mac Studio, M1 Max, 32GB | Golden Gate 27.2.1 | 1.8 |
+| 1 | Ryn | 609317278.36960 | Mac Studio, M1 Max, 32GB | Golden Gate 27.2.1 | 1.8 |
 | 2 | Ryn | 606556217.18477 |  Mac Studio, M1 Max, 32GB | Golden Gate 27.2 | 1.7 | 
 | 3 | Buildy | 462606478.29775 | MacBook Pro, i7 Quad Core, 16GB | Sequoia 15.8.2 | 1.7 |
 | 4 | Naénig | 430538523.52756 | AMD Ryzen 5 3600, 64GB | Fedora Linux 45 7.2.15 | 1.7 |
