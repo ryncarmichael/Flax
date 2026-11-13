@@ -19,3 +19,9 @@ Hopefully we can get a real competition started.  **Email** your results to **[T
 | 5 | SlowPoke | 2844696629.42174 | VirtualBox Intel i7-3820QM x 4, 8GB | Ubuntu 26.04.1 LTS | 1.7 |
 
 (IPS) Instructions Per Second.
+
+## Pole Position
+
+<img width="1280" height="844" alt="Screenshot 2026-11-14 at 2 28 08 am" src="https://github.com/user-attachments/assets/5a9f1332-b80a-4666-8c67-67bf0b2f3b5d" />
+
+Submit your own score for a chance to be featured here.
