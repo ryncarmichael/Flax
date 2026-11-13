@@ -35,6 +35,8 @@ This doesn't mean that any of the prior versions were bad; at the time they were
 
 <img width="1280" height="844" alt="Screenshot 2026-11-14 at 2 28 08 am" src="https://github.com/user-attachments/assets/5a9f1332-b80a-4666-8c67-67bf0b2f3b5d" />
 
+Want to have your own performance score featured here? Then check out the ['Bench Mark Club'](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md).
+
 ## Official YouTube Channel.
 
 **[The Flax Project's YouTube Channel](https://www.youtube.com/@TheFlaxProject)** is a great place to learn more. With monthly updates and development sessions covering Flax assembly, the underlying **[Odin](https://odin-lang.org)** code, and the tooling required to create a bespoke development environment. You get to see it all.  Warts and all – including everything we screw up in the process.
