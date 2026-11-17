@@ -24,9 +24,9 @@ lda 10 ;This is a inline comment.
 Execution and Compiling:
 -------------------------------------------------------------
 
-runflax fileName.flax -i.	;Runs file in terminal interactive mode
+runflax fileName.flax		;Runs file in terminal interactive mode
 
-runflax fileName.flax		;Runs file in normal terminal blocking mode
+runflax fileName.flax -i	;Runs file in normal terminal blocking mode
 
 runflax fileName.flax -c	;Only compiles the file without execution
 
@@ -60,12 +60,27 @@ to specify memory block size on a variable definition.
 &10
 
 
+Variables and Pointers:
+-------------------------------------------------------------
+A variable name prefixed with # symbol when loading into the
+'A' register, with load the address of the variable.
+
+lda #variableName
+
+
+A register enclosed square brackets '[]' is used to inform the
+compiler that the enclosed register is being used as a pointer.
+
+lda [c]
+
+
 Reserved Words:
 -------------------------------------------------------------
 Following is the list of reserved words used in the Flax language.
 
 abs
 add
+bell
 brk
 cmp
 csp
@@ -76,6 +91,7 @@ hlt
 idiv
 in
 inc
+irq
 jg
 jgz
 jl
@@ -108,6 +124,7 @@ stc
 sub
 sys
 xch
+yld
 
 
 Constants:
@@ -134,6 +151,7 @@ irqEnabled
 autoPauseEnabled
 autoLineFeedEnabled
 autoSpaceEnabled
+autoUpperCaseEnabled
 sysPerformance
 irqPerformance
 autoPauseTime
