@@ -2,9 +2,9 @@
 
 <div align="center">
 
-| Latest Release | YouTube | Bench Mark Club | Want to Help? |
+| Download | YouTube | Bench Mark Club | Want to Help? |
 | :---: | :---: | :---: | :---: |
-| [Download Beta 1.8](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.8) | [Official Channel](https://www.youtube.com/@TheFlaxProject) | [View Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Project Team](mailto:theflaxproject@icloud.com) |
+| [Latest Release](https://github.com/ryncarmichael/Flax/releases) | [Official Channel](https://www.youtube.com/@TheFlaxProject) | [View Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Project Team](mailto:theflaxproject@icloud.com) |
 
 </div>
 
