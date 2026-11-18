@@ -31,7 +31,7 @@ mainLoop:
 	jsrz style
 
 	;Column and row
-	lda 23
+	lda 24
 	rnd
 	add 1
 	out terminal, cursorRow

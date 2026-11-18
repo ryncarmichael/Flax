@@ -1,0 +1,64 @@
+;Variable keySet modification with pointers
+;Requires Flax Beta 1.8 or later
+@compileSnapShot
+@fileIOPath "files"
+_start:
+	lda true
+	sys flag, debugEnabled
+	
+	lda #altFile
+	push a
+	jsr saveMemBlock
+	
+	out message
+	out terminal, cursorDown
+	
+	brk
+
+saveMemBlock:
+	pop r1
+	pusha
+	lda #var
+	sta r0
+	jsr copyFileName
+	
+	lda #data
+	out memBlock <- "fileName:var"
+	
+	popa
+	rts
+	
+copyFileName:
+	pusha
+	jsr eraseVar
+	len [r1]
+	stc
+copyLoop:
+	lda [r1],c
+	sta [r0],c
+	lp copyLoop		
+	popa
+	rts
+
+eraseVar:
+	pusha
+	len [r0]
+	stc
+	lda 0
+eraseLoop:
+	sta [r0], c
+	lp eraseLoop
+	popa
+	rts	
+	
+db data &100
+db var, &20 
+db altFile, "test1.csv"
+db message, "Done!"
+
+
+	
+	
+	
+	
+	

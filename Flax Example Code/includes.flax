@@ -1,0 +1,13 @@
+;This program demonstrates the include system.
+;Requires Flax Beta 1.8 or later.
+@compileSnapShotFull
+
+_start:
+
+	;This line includes the following code which will
+	;Print the message below and the debug display
+	@include "includeCode.flax"
+
+	brk
+
+db message, "Hi! I'm being printed with code from an include file!"

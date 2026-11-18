@@ -1,9 +1,11 @@
 ;Flax IRQ, Timer and Main Code Stream Test
+;Requires Flax Beta 1.8 or later
 _start:
 
 	lda true
 	sys flag, debugEnabled
 	sys flag, autoPauseEnabled
+	sys flag, autoUpperCaseEnabled
 	
 	lda 5
 	sys value, irqPerformance
@@ -22,29 +24,58 @@ mainLoop:
 
 	lda timer
 	gt timerTimeSince
-	cmp 500 ;one seconds
+	cmp 2000 ;two seconds
 	jg notExpired
 	jsr timerExpired
 
 notExpired:
-	
 	in
 	sta keyCode
 
-	cmp 27
+	cmp 27	;Escape Key
 	jsrz exit
+	jz mainLoop
+
+	lda keyCode
+	cmp 66 ;B Key
+	jsrz playBell
+	jz mainLoop
+			
+	lda keyCode
+	cmp 73	;I key
+	jsrz softIrq
+	jz mainLoop
 	
+	lda keyCode
+	cmp 89 ;Y Key
+	jsrz forceYield
+		
 	jp mainLoop
 
 ;Catch line	
 	brk
+
+playBell:
+	bell
+	rts
+
+forceYield: ;Force a yield phase on Y key press
+	pusha
+	yld
+	popa
+	rts
 	
+softIrq: ;Trigger an IRQ on I key press
+	pusha
+	irq
+	popa
+	rts
+
 _irq:
 	pusha
 	out irqMsg
 	popa
 	rti
-
 
 timerExpired:
 	pusha
@@ -62,7 +93,7 @@ dw timer, 0
 db irqMsg, " (B) "
 db timerMsg, " (C) "
 db keyCode, 0
-db startMsg, " IRQ TESTING "
+db startMsg, "IRQ TESTING "
 
 
 
