@@ -1,13 +1,12 @@
 # Welcome to The Flax Language Project
 
-<center>
+<div align="center">
 
 | Latest Release | YouTube Channel | Bench Mark Club | Want to Help? |
 | :---: | :---: | :---: | :---: |
-| [Beta 1.8](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.8) | [Flax's Official Channel](https://www.youtube.com/@TheFlaxProject) | [View Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Flax Project Team](mailto:theflaxproject@icloud.com) |
+| [Download Beta 1.8](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.8) | [Flax's Official Channel](https://www.youtube.com/@TheFlaxProject) | [View Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Flax Project Team](mailto:theflaxproject@icloud.com) |
 
-</center>
-
+</div>
 
 ## About
 Flax is a general-purpose, high-speed assembly language compiler and runtime, often used for teaching low-level programming concepts.
@@ -26,9 +25,13 @@ _(3) The Flax Language Project is entirely separate from the Flax Game Engine. I
 
 If you find this project useful and would like to support its continued development, you’re welcome to make a donation. Every contribution is appreciated, but there’s no obligation. You could also email us if you’d like to help improve Flax or contribute to its documentation.
 
+<div align="center">
+
 | Sponsor this project | Contact the Team. |
 | :---: | :---: |
 | [Donate Securely with PayPal](https://paypal.me/ChartersTrig?locale.x=en_AU&country.x=AU) | [Email The Flax Project Team](mailto:theflaxproject@icloud.com) |
+
+</div>
 
 ## Performance
 
