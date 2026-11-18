@@ -2,9 +2,9 @@
 
 <div align="center">
 
-| Latest Release | YouTube Channel | Bench Mark Club | Want to Help? |
+| Latest Release | YouTube | Bench Mark Club | Want to Help? |
 | :---: | :---: | :---: | :---: |
-| [Download Beta 1.8](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.8) | [Flax's Official Channel](https://www.youtube.com/@TheFlaxProject) | [View Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Flax Project Team](mailto:theflaxproject@icloud.com) |
+| [Download Beta 1.8](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.8) | [Official Channel](https://www.youtube.com/@TheFlaxProject) | [View Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Project Team](mailto:theflaxproject@icloud.com) |
 
 </div>
 
@@ -29,7 +29,7 @@ If you find this project useful and would like to support its continued developm
 
 | Sponsor this project | Contact the Team. |
 | :---: | :---: |
-| [Donate Securely with PayPal](https://paypal.me/ChartersTrig?locale.x=en_AU&country.x=AU) | [Email The Flax Project Team](mailto:theflaxproject@icloud.com) |
+| [Donate Securely with PayPal](https://paypal.me/ChartersTrig?locale.x=en_AU&country.x=AU) | [Email The Project Team](mailto:theflaxproject@icloud.com) |
 
 </div>
 
