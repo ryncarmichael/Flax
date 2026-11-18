@@ -1,8 +1,13 @@
 # Welcome to The Flax Language Project
 
+<center>
+
 | Latest Release | YouTube Channel | Bench Mark Club | Want to Help? |
 | :---: | :---: | :---: | :---: |
-| [Beta 1.8](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.8) | [Official Channel](https://www.youtube.com/@TheFlaxProject) | [View Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Flax Project Team](mailto:theflaxproject@icloud.com) |
+| [Beta 1.8](https://github.com/ryncarmichael/Flax/releases/tag/Beta1.8) | [Flax's Official Channel](https://www.youtube.com/@TheFlaxProject) | [View Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Flax Project Team](mailto:theflaxproject@icloud.com) |
+
+</center>
+
 
 ## About
 Flax is a general-purpose, high-speed assembly language compiler and runtime, often used for teaching low-level programming concepts.
