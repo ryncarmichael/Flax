@@ -14,9 +14,11 @@ Hopefully we can get a real competition started.  **Email** your results to **[T
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Ryn | 610653639.91910 | Mac Studio, M1 Max, 32GB | Golden Gate 27.2.1 | 1.8 |
 | 2 | Ryn | 606556217.18477 |  Mac Studio, M1 Max, 32GB | Golden Gate 27.2 | 1.7 | 
-| 3 | Buildy | 462606478.29775 | MacBook Pro, i7 Quad Core, 16GB | Sequoia 15.8.2 | 1.7 |
-| 4 | Naénig | 430538523.52756 | AMD Ryzen 5 3600, 64GB | Fedora Linux 45 7.2.15 | 1.7 |
-| 5 | SlowPoke | 2844696629.42174 | VirtualBox Intel i7-3820QM x 4, 8GB | Ubuntu 26.04.1 LTS | 1.7 |
+| 3 | Buildy | 470685573.76296 | MacBook Pro, i7 Quad Core, 16GB | Sequoia 15.8.3 | 1.8 |
+| 4 | Buildy | 462606478.29775 | MacBook Pro, i7 Quad Core, 16GB | Sequoia 15.8.2 | 1.7 |
+| 5 | Naénig | 430538523.52756 | AMD Ryzen 5 3600, 64GB | Fedora Linux 45 7.2.15 | 1.7 |
+| 6 | SlowPoke | 299509835.38496 | VirtualBox Intel i7-3820QM x 4, 8GB | Ubuntu 26.04.1 LTS | 1.8 |
+| 7 | SlowPoke | 284469662.42174 | VirtualBox Intel i7-3820QM x 4, 8GB | Ubuntu 26.04.1 LTS | 1.7 |
 
 (IPS) Instructions Per Second.
 
