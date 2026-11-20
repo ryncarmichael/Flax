@@ -181,6 +181,7 @@ deleteFile
 @enableTestCode
 @suppressWarnings
 @fileIOPath
+@fn
 timerTimeNow
 timerTimeSince
 clearScreen
