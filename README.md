@@ -61,7 +61,7 @@ Want to have your own performance score featured here? Then check out the ['Benc
 
 - **Could Flax be used maliciously?**
 
-   No!  Flax has been designed to adhere to all operating system security requirements.  It will never try to access any area outside of which you’ve given it access to, and that list should only include the folder you’ve chosen to store your Flax files within.  Flax does not and never will have network or internet access capabilities. Even its FileIO is limited to the directory in which you’ve stored your Flax code.
+   No! Flax has been designed to adhere to all operating system security requirements. It will never try to access any area outside of which you've given it access to, and that list should only include the folder you've chosen to store your Flax files within. Flax does not and never will have network or internet access capabilities. Even FileIO and its include system are limited to the directory in which you've stored your Flax code.
 
 - **What can Flax be used for?**
 
@@ -73,7 +73,7 @@ Want to have your own performance score featured here? Then check out the ['Benc
 
   A per-seat licence fee is required for business use. **[Flax Licence Agreement](https://github.com/ryncarmichael/Flax/blob/main/LICENSE.md)**
 
-   If you wanted to support Flax, though, support options are listed above.  We felt that for personal or structured educational purposes, providing Flax for free suited best and you shouldn't be charged for learning.
+  We felt that for personal or structured educational purposes, providing Flax for free was the best fit, and you shouldn't be charged for learning.
  
 
 ## Screen Shots
