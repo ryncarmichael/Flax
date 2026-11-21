@@ -25,6 +25,6 @@ Hopefully we can get a real competition started.  **Email** your results to **[T
 
 ## Pole Position
 
-<img width="1280" height="844" alt="PolePosition" src="https://github.com/user-attachments/assets/73b0df0e-5e61-4892-8fae-f2af5c2f4811" />
+<img width="1280" height="844" alt="PolePosition" src="https://github.com/user-attachments/assets/4572f2c3-46c7-49d9-ba70-b5885b8b86ec" />
 
 Submit your own score for a chance to be featured here.
