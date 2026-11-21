@@ -1,0 +1,10 @@
+; This file contains the codes in the include example.
+; It is not functional by itself.
+
+; Requires Beta 1.8 or later
+	lda true
+	sys flag, debugEnabled
+	
+	out message
+	
+	out terminal, cursorDown

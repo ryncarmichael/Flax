@@ -53,7 +53,7 @@ eraseLoop:
 	
 db data &100
 db var, &20 
-db altFile, "test1.csv"
+db altFile, "test.csv"
 db message, "Done!"
 
 
