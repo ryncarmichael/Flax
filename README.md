@@ -63,6 +63,8 @@ Want to have your own performance score featured here? Then check out the ['Benc
 
    No! Flax has been designed to adhere to all operating system security requirements. It will never try to access any area outside of which you've given it access to, and that list should only include the folder you've chosen to store your Flax files within. Flax does not and never will have network or internet access capabilities. Even FileIO and its include system are limited to the directory in which you've stored your Flax code.
 
+  However, we accept that nothing is infallible, and there are individuals in this world willing to try. We have done all we can to mitigate this possibility.
+
 - **What can Flax be used for?**
 
    Anything you wish.  Cluster computing, general programming, entertainment, as well as personal or structured education.  The list is endless.  You could even just have a play to try something different.  Flax was designed to promote inventive thinking and creative solutions.
