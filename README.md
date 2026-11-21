@@ -4,7 +4,7 @@
 
 | Download | Documentation | YouTube | Bench Marks | Want to Help? | Tasks |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Release](https://github.com/ryncarmichael/Flax/releases) | [Knowledge Base](https://github.com/ryncarmichael/Flax/wiki)  | [Official Channel](https://www.youtube.com/@TheFlaxProject) | [Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Team](mailto:theflaxproject@icloud.com) | [Open Tasks](https://github.com/ryncarmichael/Flax/issues) |
+| [Releases](https://github.com/ryncarmichael/Flax/releases) | [Knowledge Base](https://github.com/ryncarmichael/Flax/wiki)  | [Official Channel](https://www.youtube.com/@TheFlaxProject) | [Scores](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md) | [Email The Team](mailto:theflaxproject@icloud.com) | [Open Tasks](https://github.com/ryncarmichael/Flax/issues) |
 
 </div>
 
