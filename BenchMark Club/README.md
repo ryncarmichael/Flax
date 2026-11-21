@@ -3,8 +3,8 @@ Want to join the club?  It's simple.  Download the **[Speed Tester](https://gith
 
 | **Running the Speed Tester** | **Flax Version** |
 | :--- | :--- |
-| runflax speedtest.eflax | 1.8 or Later |
-| runflax speedtest.eflax -i  | 1.7 or earlier |
+| runflax speedtest.eflax | Beta 1.8 or Later |
+| runflax speedtest.eflax -i  | Beta 1.7 or earlier |
 
 Hopefully we can get a real competition started.  **Email** your results to **[The Flax Project.](mailto:theflaxproject@icloud.com)**
 
