@@ -78,6 +78,7 @@ Want to have your own performance score featured here? Then check out the ['Benc
 
 ## Screen Shots
 
-<img width="1280" height="873" alt="650769648-d60ad7ce-ae7f-48a3-b56c-e2d228e2b2e6" src="https://github.com/user-attachments/assets/bff2d43e-d2ae-47ef-adfe-adca26526fda" />
+<img width="1280" height="826" alt="Editor" src="https://github.com/user-attachments/assets/3f10cbf5-ecc4-4c53-bec4-8e7099d2c729" />
+
 
 
