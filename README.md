@@ -80,7 +80,8 @@ Want to have your own performance score featured here? Then check out the ['Benc
 
 ## Screen Shots
 
-<img width="1280" height="826" alt="Screenshot 2026-11-22 at 3 16 36 am" src="https://github.com/user-attachments/assets/66e80191-0d7e-48bc-9dde-f814fc641e24" />
+<img width="1280" height="826" alt="Screenshot 2026-11-22 at 4 00 22 pm" src="https://github.com/user-attachments/assets/355e2d1b-ff86-4e76-8c63-9dd391c29fd4" />
+
 
 
 
