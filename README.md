@@ -41,7 +41,7 @@ The prior versions ran at **3**, **13**, **80**, and **145** _(MIPS)_ and the la
 
 This doesn't mean that any of the prior versions were bad; at the time they were perfect for their use case. I doubt you could even tell the difference between the version running at **3** and the latest in everyday use. All this benchmark really shows is that there is a lot more performance headroom available in this version than the previous.
 
-<img width="1280" height="903" alt="Screenshot 2026-11-24 at 3 50 49 am" src="https://github.com/user-attachments/assets/b5e902eb-6375-4502-b177-abefe612f007" />
+<img width="1280" height="903" alt="Screenshot 2026-11-24 at 9 25 37 am" src="https://github.com/user-attachments/assets/f3f15f71-5e2e-467d-b603-236610acbe1a" />
 
 Want to have your own performance score featured here? Then check out the ['Bench Mark Club'](https://github.com/ryncarmichael/Flax/blob/main/BenchMark%20Club/README.md).
 
@@ -80,7 +80,8 @@ Want to have your own performance score featured here? Then check out the ['Benc
 
 ## Screen Shots
 
-<img width="1280" height="826" alt="Screenshot 2026-11-22 at 4 00 22 pm" src="https://github.com/user-attachments/assets/355e2d1b-ff86-4e76-8c63-9dd391c29fd4" />
+<img width="1280" height="826" alt="Screenshot 2026-11-24 at 9 33 34 am" src="https://github.com/user-attachments/assets/fc1f6584-e9ed-4993-93f5-58caa2ebec52" />
+
 
 
 
