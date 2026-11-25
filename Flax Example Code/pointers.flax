@@ -1,7 +1,8 @@
 ;Variable keySet modification with pointers
 ;Requires Flax Beta 1.8 or later
-@compileSnapShot
+@report compile, full
 @fileIOPath "files"
+@includePath "includes"
 _start:
 	lda true
 	sys flag, debugEnabled
@@ -15,7 +16,7 @@ _start:
 	
 	brk
 
-saveMemBlock:
+@fn saveMemBlock:
 	pop r1
 	pusha
 	lda #var
@@ -28,7 +29,7 @@ saveMemBlock:
 	popa
 	rts
 	
-copyFileName:
+@fn copyFileName:
 	pusha
 	jsr eraseVar
 	len [r1]
@@ -40,7 +41,7 @@ copyLoop:
 	popa
 	rts
 
-eraseVar:
+@fn eraseVar:
 	pusha
 	len [r0]
 	stc

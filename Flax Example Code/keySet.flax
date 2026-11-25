@@ -1,7 +1,9 @@
 ;Program to demonstrate using a key set.
-;Requires Beta 1.7 or later.
-@runtimeSnapShotFull ;Turned on to show the loaded values in the memory blocks
-@compileSnapShotFull
+;Requires Beta 1.9 or later not 1.9e.
+
+;Turned on to show the loaded values in the memory blocks
+@report runtime, full
+
 
 @fileIOPath "files"
 _start:

@@ -1,6 +1,5 @@
 ;This program demonstrates the include system.
 ;Requires Flax Beta 1.8 or later.
-@compileSnapShotFull
 @fileIOPath "files"
 @includePath "includes"
 _start:

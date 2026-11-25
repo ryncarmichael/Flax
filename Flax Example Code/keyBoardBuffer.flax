@@ -1,6 +1,7 @@
 ;Flax read entire Key Board Buffer Example
 ;The runtime snap shot shows the results
-@runtimeSnapShotFull
+;Reguires 1.9 or later, not 1.9e
+@report runtime, full
 
 _start:
 	lda true

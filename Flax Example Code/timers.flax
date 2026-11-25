@@ -16,7 +16,6 @@ mainLoop:
 notExpired:
 
 	in
-	sta r0
 	cmp 27
 	jsrz exit
 
