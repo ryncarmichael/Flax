@@ -12,7 +12,8 @@ official release builds will be maintained where applicable.
 
 | Version | Supported          |
 | :---: | :---: |
-| Beta 1.9e | :white_check_mark: |
+| Beta 1.9 | :white_check_mark: |
+| Beta 1.9e | :x: |
 | Beta 1.8 | :x: |
 | Beta 1.7 | :x: |
 | Beta 1.6 | :x: |
