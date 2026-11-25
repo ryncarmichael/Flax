@@ -74,6 +74,14 @@ compiler that the enclosed register is being used as a pointer.
 lda [c]
 
 
+Variable Types:
+-------------------------------------------------------------
+db
+dw
+dd
+file
+
+
 Reserved Words:
 -------------------------------------------------------------
 Following is the list of reserved words used in the Flax language.
@@ -127,6 +135,27 @@ xch
 yld
 
 
+Compiler Directives:
+-------------------------------------------------------------
+@report
+@include
+@enableTestCode
+@suppressWarnings
+@fileIOPath
+@includePath
+@fn
+
+
+Registers:
+-------------------------------------------------------------
+a
+b
+c
+d
+r0
+r1
+
+
 Constants:
 -------------------------------------------------------------
 Following is the list of constants defined in the Flax language.
@@ -134,16 +163,6 @@ Following is the list of constants defined in the Flax language.
 true
 false
 pi
-db
-dw
-dd
-file
-a
-b		
-c
-d
-r0
-r1
 flag
 value
 debugEnabled
@@ -173,15 +192,6 @@ purgeFile
 resetPointer
 fileExists
 deleteFile
-@compileSnapShot
-@compileSnapShotFull
-@runtimeSnapShot
-@runtimeSnapShotFull
-@include
-@enableTestCode
-@suppressWarnings
-@fileIOPath
-@fn
 timerTimeNow
 timerTimeSince
 clearScreen
