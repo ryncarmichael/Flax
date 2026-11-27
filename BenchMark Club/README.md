@@ -12,7 +12,7 @@ Hopefully we can get a real competition started.  **Email** your results to **[T
 
 | **Rank** | **Nick Name** | **Average IPS** | **Machine Specifications** | **OS** | **Flax Version** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Ryn | 609537919.19787 | Mac Studio, M1 Max, 32GB | Golden Gate 27.2.1 | Beta 1.9 |
+| 1 | Ryn | 610749752.31367 | Mac Studio, M1 Max, 32GB | Golden Gate 27.2.1 | Beta 1.9 |
 | 2 | Ryn | 606556217.18477 |  Mac Studio, M1 Max, 32GB | Golden Gate 27.2 | Beta 1.7 | 
 | 3 | Buildy | 470685573.76296 | MacBook Pro, i7 Quad Core, 16GB | Sequoia 15.8.3 | Beta 1.8 |
 | 4 | Buildy | 462606478.29775 | MacBook Pro, i7 Quad Core, 16GB | Sequoia 15.8.2 | Beta 1.7 |
@@ -24,6 +24,6 @@ Hopefully we can get a real competition started.  **Email** your results to **[T
 
 ## Pole Position
 
-<img width="1280" height="903" alt="Screenshot 2026-11-27 at 7 25 00 am" src="https://github.com/user-attachments/assets/bc501796-c32d-49a3-8158-5f9245716f77" />
+<img width="1280" height="903" alt="Screenshot 2026-11-27 at 8 24 14 pm" src="https://github.com/user-attachments/assets/58f95d41-87db-4180-adb3-71e4c2fd2974" />
 
 Submit your own score for a chance to be featured here.
